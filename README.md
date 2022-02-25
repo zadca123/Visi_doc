@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+# Visi_doc
+>>>>>>> f9bdf967090511a167ccf4bee560ecd665dc187b
 # Dokumentacja projektu
 Dokumentacja z zajęć z przedmiotu fakultatywnego, prowadzonego przez firmę Visimind.
 
