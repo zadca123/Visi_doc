@@ -27,7 +27,10 @@ Co tydzień w poniedziałek jest spotkanie, na którym kontrolujemy postęp i us
 ### Reakcja
 - w przypadku choroby któregoś z współuczestników projektu, pozostałe osoby rozdzielą między siebie jego zadania, by nie opóźnić progresu, ale też by nie obciążyć znacznie większą ilością zadań tylko jednej osoby. 
 
-*zajęcia 04.03*
+
+
+#*zajęcia 04.03*
+
 
 # Nagłówek Epic 
 
@@ -36,33 +39,32 @@ Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planowa
 ## Feature
 
   1. w ciągu tygodni(?)
-  2. zaloguj się
-  3. Stwórz tablicę
-  4. Dodaj kolumny i nazywaj je 
-  5. Stwórz zadania 
-  6. Dopisuj terminy do zadań 
-  7. Utwórz listę podzadań do zadania
-  8. Przypisz zadania do poszczególnych osób z projektu
-  9. Przenoś zadania między kolumnami
-  10. Wysyłaj powiadomienia o zmianach wprowadzonych przez pozostałych użytkowników tablicy 
+  2. zaloguj się 13
+  3. Stwórz tablicę 50 
+  4. Dodaj kolumny i nazywaj je 13
+  5. Stwórz zadania 8
+  6. Dopisuj terminy do zadań 8
+  7. Utwórz listę podzadań do zadania 20
+  8. Przypisz zadania do poszczególnych osób z projektu 40
+  9. Przenoś zadania między kolumnami 20
+  10. Wysyłaj powiadomienia o zmianach wprowadzonych przez pozostałych użytkowników tablicy 40
   
 
   
   
-### User story/task 
+## User story/task 
 
- - ustalić technologie w których tworzymy projekt 
- 
- - podzielić się na front i back
- - zainicjować projekt 
- - zainstalować pakiety
- - podpiąć bazę danych 
+ - ustalić technologie w których tworzymy projekt 1
+ - podzielić się na front i back 1
+ - zainicjować projekt 1
+ - zainstalować pakiety 2
+ - podpiąć bazę danych 5
   - **stworzyć:**
-    - modele 
-    - views 
-    - urls 
-    - settings
- - Utworzyć index.html i pozostałe templatki
- - Stworzyć odpowiednie pliki js i css
- - Połączyć front i back
+    - modele 20
+    - views 13
+    - urls 13
+    - settings 8
+ - Utworzyć index.html i pozostałe templatki 50
+ - Stworzyć odpowiednie pliki js i css 50
+ - Połączyć front i back 40
  
