@@ -17,7 +17,7 @@ W momencie pojawienia się problemów będziemy ustalać, kto zajmie się czymś
 Kazdy swoje poszczególne zadania i terminy ma już przypisane na specjalnie założonej tablicy kanban.
 Co tydzień w poniedziałek jest spotkanie, na którym kontrolujemy postęp i ustalamy czego jeszcze brakuje.
 
-## Analiza ryzykab
+## Analiza ryzyka
 ### Prawdopodobieństwo
 - będzie tak dużo pracy własnej związanej ze studiami, że nie będziemy mogli poświęcić tak dużo czasu na tworzenie projektu. 
 ### Wpływ na projekt
@@ -26,3 +26,43 @@ Co tydzień w poniedziałek jest spotkanie, na którym kontrolujemy postęp i us
 - dlatego jest zaplanowane codzienna praca, żeby teraz, póki semestr dopiero się zaczyna, zrobić więcej, ewentualnie szybciej skończyć. Jeżeli mimo to będą opóźnienia, to poszukamy pomocy, a jeżeli jej nie znajdziemy, to będziemy też poświęcać na to czas w sobotę i niedzielę. 
 ### Reakcja
 - w przypadku choroby któregoś z współuczestników projektu, pozostałe osoby rozdzielą między siebie jego zadania, by nie opóźnić progresu, ale też by nie obciążyć znacznie większą ilością zadań tylko jednej osoby. 
+
+*zajęcia 04.03*
+
+# Nagłówek Epic 
+
+Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planować swoje projekty rozbijając je na zadania i przypisując konkretne osoby i daty.
+
+## Feature
+
+  1. w ciągu tygodni(?)
+  2. zaloguj się
+  3. Stwórz tablicę
+  4. Dodaj kolumny i nazywaj je 
+  5. Stwórz zadania 
+  6. Dopisuj terminy do zadań 
+  7. Utwórz listę podzadań do zadania
+  8. Przypisz zadania do poszczególnych osób z projektu
+  9. Przenoś zadania między kolumnami
+  10. Wysyłaj powiadomienia o zmianach wprowadzonych przez pozostałych użytkowników tablicy 
+  
+
+  
+  
+### User story/task 
+
+ - ustalić technologie w których tworzymy projekt 
+ 
+ - podzielić się na front i back
+ - zainicjować projekt 
+ - zainstalować pakiety
+ - podpiąć bazę danych 
+  - **stworzyć:**
+    - modele 
+    - views 
+    - urls 
+    - settings
+ - Utworzyć index.html i pozostałe templatki
+ - Stworzyć odpowiednie pliki js i css
+ - Połączyć front i back
+ 
