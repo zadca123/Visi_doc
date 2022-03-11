@@ -81,27 +81,35 @@
 * Ćwiczenia 3
 ** Analiza SWOT (dla opisu przypadku)
 *** Strenghts 
-    - senior w ekipie
-    - zespół może płynnie pracować, bo najsłabsi mają się od kogo uczyć
-    - w razie błędów senior może zareagować szybko
-    - developerzy Full Stack
+  - senior w ekipie
+  - zespół może płynnie pracować, bo najsłabsi mają się od kogo uczyć
+  - w razie błędów senior może zareagować szybko
+  - developerzy Full Stack
+  - stały dochód
+  - własne biuro i sprzęt 
+  - pozostałe osoby z firmy umożliwiające prawidłowe funkcjonowanie firmy
 
 *** Weakness
-    - dwóch juniorów
-    - czy pracują osobno i każdy ma na głowie swój projekt czy współpracują przy tworzeniu projektów
-    - praca stacjonarna
-
+  - dwóch juniorów
+  - czy pracują osobno i każdy ma na głowie swój projekt czy współpracują przy tworzeniu projektów
+  - praca stacjonarna
+  - praca w małym mieście może oznaczać, że przyszli pracownicy będą musieli być wybierani z wąskiego grona chętnych
+  - indywidualizm (ja w zespole)
+  - w biurze mogą znajdować się przestarzałe komputery
+  - możliwość odejścia seniora
+    
 *** Occasions
-    - polepszenie umiejętności socjalnych, komunikacyjnych
-    - zdobycie nowych umiejętności
-    - możliwość pracy w zespole
-    - wejście w rynek pracy zdalnej
-
+  - mała konkurencja w mieście
+  - możliwość wyboru pracowników spośród potencjalnych kandydatów w mieście
+   
 *** Threats
-    - lokalizacja biura (Morąg) może nie każdemu odpowiadać
-    - indywidualizm (ja w zespole)
-    - w biurze mogą znajdować się przestarzałe komputery
-    - możliwość odejścia seniora
+  - lokalizacja biura (Morąg) może nie każdemu odpowiadać
+  - zmieniające się podatki i regulacje prawne
+  - brak możliwości rozwinięcia się w pracy nad dużym projektem
+
+
+
+
 
 ** Zadanie 2
    Harmonogram / Wykres Ganta
