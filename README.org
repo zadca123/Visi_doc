@@ -1,38 +1,36 @@
-# Dokumentacja projektu
+* Ćwiczenia 1 i 2
+** Dokumentacja projektu
 Dokumentacja z zajęć z przedmiotu fakultatywnego, prowadzonego przez firmę Visimind.
 
-## Projekt tablicy kanban
+** Projekt tablicy kanban
 Na tworzenie aplikacji codziennie każdy powinien przeznaczyć 1,5h, a w czwartek dodatkowe 2,25h, ponieważ mamy planowo w tym czasie zajęcia przeznaczone do tworzenia tego projektu. Projekt i działająca aplikacja powinny być ukończone 25.05.2022r, więc mamy jako zespół 12 tygodni (117 godzin) pracy nad projektem.
 
-## Cel
+** Cel
 Celem naszego projektu jest stworzenie działającej tablicy kanban, w której zadania będą przypisywane do osób, możliwe będą rejestracja i logowanie, ułożenie ich wg progresu danego zadania.
 
-## Podział zespołów 
+** Podział zespołów 
 za front-end odpowiadają 2 osoby, za back-end 3 osoby, które znają biegle technologie, z których zdecydowaliśmy się korzystać.
 W momencie pojawienia się problemów będziemy ustalać, kto zajmie się czymś dodatkowo. 
 Kazdy swoje poszczególne zadania i terminy ma już przypisane na specjalnie założonej tablicy kanban.
 Co tydzień w poniedziałek jest spotkanie, na którym kontrolujemy postęp i ustalamy czego jeszcze brakuje.
 
-## Analiza ryzyka
-### Prawdopodobieństwo
+** Analiza ryzyka
+*** Prawdopodobieństwo
 - będzie tak dużo pracy własnej związanej ze studiami, że nie będziemy mogli poświęcić tak dużo czasu na tworzenie projektu. 
-### Wpływ na projekt
+*** Wpływ na projekt
 - Jest to najbardzej prawdopodobna możliwość, która opóźniłaby powstawanie aplikacji,
-### Sposób ograniczenia ryzyka
+*** Sposób ograniczenia ryzyka
 - dlatego jest zaplanowane codzienna praca, żeby teraz, póki semestr dopiero się zaczyna, zrobić więcej, ewentualnie szybciej skończyć. Jeżeli mimo to będą opóźnienia, to poszukamy pomocy, a jeżeli jej nie znajdziemy, to będziemy też poświęcać na to czas w sobotę i niedzielę. 
-### Reakcja
+*** Reakcja
 - w przypadku choroby któregoś z współuczestników projektu, pozostałe osoby rozdzielą między siebie jego zadania, by nie opóźnić progresu, ale też by nie obciążyć znacznie większą ilością zadań tylko jednej osoby. 
 
 
 
-#*zajęcia 04.03*
+**zajęcia 04.03*
 
-
-# Nagłówek Epic 
-
+** Nagłówek Epic 
 Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planować swoje projekty rozbijając je na zadania i przypisując konkretne osoby i daty.
-
-## Feature
+** Feature
 
   1. w ciągu tygodni(?)
   2. zaloguj się 13
@@ -47,8 +45,7 @@ Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planowa
   
 
   
-  
-## User story/task 
+** User story/task 
 
  - ustalić technologie w których tworzymy projekt 1
  - podzielić się na front i back 1
@@ -64,3 +61,43 @@ Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planowa
  - Stworzyć odpowiednie pliki js i css 50
  - Połączyć front i back 40
  
+* Ćwiczenia 3
+** Analiza SWOT (dla opisu przypadku)
+*** Strenghts 
+  - senior w ekipie
+  - zespół może płynnie pracować, bo najsłabsi mają się od kogo uczyć
+  - w razie błędów senior może zareagować szybko
+  - developerzy Full Stack
+ 
+*** Weakness
+  - dwóch juniorów
+  - czy pracują osobno i każdy ma na głowie swój projekt czy współpracują przy tworzeniu projektów
+  - praca stacjonarna
+  
+*** Occasions
+  - polepszenie umiejętności socjalnych, komunikacyjnych
+  - zdobycie nowych umiejętności
+  - możliwość pracy w zespole
+  - wejście w rynek pracy zdalnej
+  
+*** Threats
+  - lokalizacja biura (Morąg) może nie każdemu odpowiadać
+  - indywidualizm (ja w zespole)
+  - w biurze mogą znajdować się przestarzałe komputery
+  - możliwość odejścia seniora
+  
+** Zadanie 2
+   Harmonogram / Wykres Ganta
+   [[./images/harmonogram.png]]
+  # - Modyfikacja frontendu - dodanie 3 widoków (3h)
+  # - Modyfikacja backendu - dodanie generowania raportów (5h)
+  # - Dodanie wysyłania i pobierania plików (4h)
+  #   - Sprawdzenie czy plik istnieje (3h)
+  #     - nazwa (30min)
+  #     - rozmiar (30min)
+  #     - hash  (1h)
+  #     - itd...
+  #    - Ostrzeżenie przed nadpisem (1h)
+
+
+
