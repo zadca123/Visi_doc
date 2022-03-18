@@ -165,6 +165,7 @@
     #+end_quote
     - Przeciwdziałania
       - zapytać Maćka czy jest w stanie nadzorować dwa projekty jednocześnie
-      - wydzielenie Maćka po dniu dla każdego zespołu
+      - wydzielenie Maćkowi po dniu dla każdego zespołu
       - zlecić pracę analityka z zewnątrz
-      - ustalenie który projekt jest ważniejszy oraz ustalenie czasu poświęconego przez Maćka
+      - ustalenie który projekt jest ważniejszy
+      - ustalenie czasu poświęconego przez Maćka na każdy projekt
