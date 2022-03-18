@@ -18,6 +18,7 @@
   - [[#zadanie-2][Zadanie 2]]
 - [[#ćwiczenia-4][Ćwiczenia 4]]
   - [[#schemat-blokowy][Schemat blokowy]]
+  - [[#konflikty][Konflikty]]
 
 * Ćwiczenia 1
 ** Dokumentacja projektu
@@ -137,3 +138,33 @@
 *** Rejestacja
     [[./images/rejestracja.drawio.svg]]
   
+** Konflikty
+*** Przypadek 1
+    #+begin_quote
+    Piotr zachowuje się agresywnie w stosunku do innych uczestników.
+    #+end_quote
+    - Przeciwdziałania
+      - zapytać Piotra jaki jest powód jego agresji
+      - rozmowa z innymi członkami projektu na temat zaistniałej sytuacji i wytłumaczenie wszelkich niepewności
+      - zafundować wizytę u psychologa lub urlop
+      - zwolnić w razie konieczności
+*** Przypadek 2
+    #+begin_quote
+    Przełożony wymaga przygotowania demo, które nie było zaplanowane w sprincie co powoduje opóźnienie w projekcie.
+    #+end_quote
+    - Przeciwdziałania
+      - zrobić miejsce na demo kosztem jednego z punktów sprintu
+      - przekonać przełożonego, że strata wynikająca z niedotrzymania terminów jest większa niż z braku przygotowania demo
+      - poproszenie o przesunięcie dęadline'a projektu
+      - doprecyzowanie w jakim celu jest potrzebne wykonanie tego demo 
+      - doprecyzowanie jakie efekty przyniesie realizacja dema, by zrozumiec jego potrzebę
+
+*** Przypadek 3
+    #+begin_quote
+    Maciek jest wspaniałym analitykiem i jego wiedza pomogłaby w realizacji projektu. Niestety zespół z równolegle prowadzonego projektu rówhież potrzebuje jego wsparcia.
+    #+end_quote
+    - Przeciwdziałania
+      - zapytać Maćka czy jest w stanie nadzorować dwa projekty jednocześnie
+      - wydzielenie Maćka po dniu dla każdego zespołu
+      - zlecić pracę analityka z zewnątrz
+      - ustalenie który projekt jest ważniejszy oraz ustalenie czasu poświęconego przez Maćka
