@@ -135,5 +135,5 @@
 *** Logowanie
     [[./images/logowanie.drawio.svg]]
 *** Rejestacja
-    [[./images/rejestacja.drawio.svg]]
+    [[./images/rejestracja.drawio.svg]]
   
