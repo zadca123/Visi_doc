@@ -19,6 +19,9 @@
 - [[#ćwiczenia-4][Ćwiczenia 4]]
   - [[#schemat-blokowy][Schemat blokowy]]
   - [[#konflikty][Konflikty]]
+- [[#ćwiczenia-5][Ćwiczenia 5]]
+  - [[#rejestr-udziałowców][Rejestr udziałowców]]
+  - [[#pytania][Pytania]]
 
 * Ćwiczenia 1
 ** Dokumentacja projektu
@@ -128,7 +131,6 @@
    #    - Ostrzeżenie przed nadpisem (1h)
 
 
-
 * Ćwiczenia 4
 ** Schemat blokowy
 *** Zmiana hasła
@@ -169,3 +171,19 @@
       - zlecić pracę analityka z zewnątrz
       - ustalenie który projekt jest ważniejszy
       - ustalenie czasu poświęconego przez Maćka na każdy projekt
+* Ćwiczenia 5
+** Rejestr udziałowców
+  | L.P. | Rodzaj      | Nazwa                | Opis                           | Rola                                    | Oczekiwania                     | Wpływ                                                   | Komunikacja     |
+  |------+-------------+----------------------+--------------------------------+-----------------------------------------+---------------------------------+---------------------------------------------------------+-----------------|
+  |    1 | grupa       | administracja it     | administracja it               | przygotowanie infrastuktury             | przekazanie wymagań             | zapewnienie środowiska                                  | spotkania       |
+  |    2 | grupa       | dewelperzy           | deweloperzy                    | przygotowanie aplikacji                 | przekazanie wymagań             | stworzenie aplikacji                                    | spotkania       |
+  |    3 | osoba       | product owner        | product owner                  | objaśnienie funkcji aplikacji (backlog) | dostarczenie aplikacji          | objaśnienie deweloperom wymagań aplikacji               | spotkania       |
+  |    4 | osoba       | project manager      | project manager                | nadzorowanie projektem                  | zakończenie projektu w terminie | rozwiązywanie problemów                                 | spotkania       |
+  |    5 | organizacja | firma zlecająca xyz  | firma zlecająca xyz            | wizjonerzy                              | funkcjonalna aplikacja          | wysyła product ownera na rozmowy o aplikacji            | product         |
+  |    6 | osoba       | prezes firmy xyz     | prezes firmy xyz               | sponsor                                 | funkcjonalna aplikacja          | wkład pieniężny                                         | product owner   |
+  |    7 | organizacja | UODO                 | urząd ochrony danych osobowych | monitorowanie                           | zgodnosc z przepisami           | możlowiść nałożenia kar                                 | formalna        |
+  |    8 | organizacja | firma wykonująca xyz | firma wykonująca xyz           | zespół produkcyjny                      | zapłata                         | dostarcza narzędzia oraz zespół do stworzenia aplikacji | product manager |
+** Pytania
+   - Moje opisy git commitów są zawsze informatywne
+   - Byłem na Litwie 
+   - Stałem na torach
