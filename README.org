@@ -21,7 +21,6 @@
   - [[#konflikty][Konflikty]]
 - [[#ćwiczenia-5][Ćwiczenia 5]]
   - [[#rejestr-udziałowców][Rejestr udziałowców]]
-  - [[#pytania][Pytania]]
 
 * Ćwiczenia 1
 ** Dokumentacja projektu
@@ -183,7 +182,3 @@
   |    6 | osoba       | prezes firmy xyz     | prezes firmy xyz               | sponsor                                 | funkcjonalna aplikacja          | wkład pieniężny                                         | product owner   |
   |    7 | organizacja | UODO                 | urząd ochrony danych osobowych | monitorowanie                           | zgodnosc z przepisami           | możlowiść nałożenia kar                                 | formalna        |
   |    8 | organizacja | firma wykonująca xyz | firma wykonująca xyz           | zespół produkcyjny                      | zapłata                         | dostarcza narzędzia oraz zespół do stworzenia aplikacji | product manager |
-** Pytania
-   - Moje opisy git commitów są zawsze informatywne
-   - Byłem na Litwie 
-   - Stałem na torach
