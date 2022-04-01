@@ -21,6 +21,10 @@
   - [[#konflikty][Konflikty]]
 - [[#ćwiczenia-5][Ćwiczenia 5]]
   - [[#rejestr-udziałowców][Rejestr udziałowców]]
+- [[#ćwiczenia-6][Ćwiczenia 6]]
+  - [[#dod-definition-of-done][DoD (Definition of Done)]]
+  - [[#kryteria-akceptacji--indywidualne-kryteria-która-musi-spełnić-każda-poszczególna-historyjka][Kryteria akceptacji :: indywidualne kryteria która musi spełnić każda poszczególna historyjka]]
+  - [[#druga-część][Druga część]]
 
 * Ćwiczenia 1
 ** Dokumentacja projektu
@@ -182,3 +186,36 @@
   |    6 | osoba       | prezes firmy xyz     | prezes firmy xyz               | sponsor                                 | funkcjonalna aplikacja          | wkład pieniężny                                         | product owner   |
   |    7 | organizacja | UODO                 | urząd ochrony danych osobowych | monitorowanie                           | zgodnosc z przepisami           | możlowiść nałożenia kar                                 | formalna        |
   |    8 | organizacja | firma wykonująca xyz | firma wykonująca xyz           | zespół produkcyjny                      | zapłata                         | dostarcza narzędzia oraz zespół do stworzenia aplikacji | product manager |
+* Ćwiczenia 6
+# ** DoR (Definition of Ready)
+** DoD (Definition of Done)
+   Dla portalu internetowego
+   - Wszystkie testy jednostkowe zaliczone
+   - Zaktualizowano rejestr produktów
+   - Projekt wdrożony na środowisku testowym identycznym z platformą produkcyjną
+   - Przeprowadzono testy na urządzeniach/przeglądarkach wymienionych w dokumentacji
+   - Przeszły testy kompatybilności wstecznej
+   - Testy wydajności przeszły pomyślnie
+   - Naprawiono wszystkie błędy
+   - Sprint oznaczony jako gotowy do wdrożenia produkcyjnego przez Właściciela Produktu
+** Kryteria akceptacji :: indywidualne kryteria która musi spełnić każda poszczególna historyjka
+   - Dla przesyłania plików :: Jako użytkownik chcę przesłać zdjęcie na serwer
+     + możliwość drag'n'drop obrazka z przeglądarki plików do przeglądarki internetowej
+     + opcja *Wybierz plik* pozwalająca przeszukiwać system
+     + sprawdzenie typu pliku
+     + poinformowanie użytkownika o niepoprawnym formacie pliku w razie wybrania innego typu niż obraz
+     + możliwość pobrania obrazu z serwera
+     + możliwość wyświetlenia? obrazu na serwerze
+** Druga część
+   Poranne wstawanie
+   # - 6:00 :: przeburzenie
+   # - 6:30 :: śniadanie
+   # - 7:00 :: mycie zębów
+   # - 7:15 :: wyjście z domu
+   # - 8:00 :: wejście do biura
+     | łazienka        | jedzenie          | podróż                   |
+     |-----------------+-------------------+--------------------------|
+     | mycie zębów     | picie kawy        | ubranie się              |
+     | prysznic        | zjedzenie ciastka | biegnięcie na przystanek |
+     | uczesanie się   |                   | podróż autobusem         |
+     | suszenie włosów |                   | spacer na uczelnię       |

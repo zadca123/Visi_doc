@@ -1,69 +1,72 @@
 
 # Table of Contents
 
-1.  [Ćwiczenia 1](#orga3505bd)
-    1.  [Dokumentacja projektu](#orgedce556)
-    2.  [Projekt tablicy kanban](#org4f98a85)
-    3.  [Cel](#org96818cd)
-    4.  [Podział zespołów](#org69e1475)
-    5.  [Analiza ryzyka](#org9adb9d2)
-        1.  [Prawdopodobieństwo](#orgf78e9ab)
-        2.  [Wpływ na projekt](#org114764f)
-        3.  [Sposób ograniczenia ryzyka](#org9cabf94)
-        4.  [Reakcja](#org6d9a836)
-2.  [Ćwiczenia 2](#orge08406b)
-    1.  [Epic](#org80d0efc)
-    2.  [Feature](#org0376e23)
-    3.  [User story/task](#orge172a47)
-3.  [Ćwiczenia 3](#orgcaa5b6e)
-    1.  [Analiza SWOT (dla opisu przypadku)](#orgff07e5e)
-        1.  [Strenghts](#org7223887)
-        2.  [Weakness](#org9850f56)
-        3.  [Occasions](#org027715b)
-        4.  [Threats](#org34432cb)
-    2.  [Zadanie 2](#org6d370b4)
-4.  [Ćwiczenia 4](#org8ff2bf2)
-    1.  [Schemat blokowy](#org2bf4c00)
-        1.  [Zmiana hasła](#orge1c123c)
-        2.  [Logowanie](#orgb866b18)
-        3.  [Rejestacja](#org14be612)
-    2.  [Konflikty](#org0f3ebf2)
-        1.  [Przypadek 1](#org7083477)
-        2.  [Przypadek 2](#orgf72a280)
-        3.  [Przypadek 3](#orgff69243)
-5.  [Ćwiczenia 5](#orga46672b)
-    1.  [Rejestr udziałowców](#org2ab44f1)
-    2.  [Pytania](#org84b6d6a)
+1.  [Ćwiczenia 1](#org17b936f)
+    1.  [Dokumentacja projektu](#orgb83cd1b)
+    2.  [Projekt tablicy kanban](#orgbe16e6b)
+    3.  [Cel](#orgfad6ab7)
+    4.  [Podział zespołów](#org21e75e9)
+    5.  [Analiza ryzyka](#org43516c1)
+        1.  [Prawdopodobieństwo](#orga8a635a)
+        2.  [Wpływ na projekt](#org60ac5ec)
+        3.  [Sposób ograniczenia ryzyka](#org44dadb4)
+        4.  [Reakcja](#orgb73d6aa)
+2.  [Ćwiczenia 2](#org13eba0a)
+    1.  [Epic](#orgd3082fd)
+    2.  [Feature](#org905999e)
+    3.  [User story/task](#org71a6b6f)
+3.  [Ćwiczenia 3](#org1db72e1)
+    1.  [Analiza SWOT (dla opisu przypadku)](#org392525d)
+        1.  [Strenghts](#orgde8d206)
+        2.  [Weakness](#orgbb5a34c)
+        3.  [Occasions](#org88a2fd7)
+        4.  [Threats](#org60513c3)
+    2.  [Zadanie 2](#orgfbb2987)
+4.  [Ćwiczenia 4](#org75edbf7)
+    1.  [Schemat blokowy](#org3d51388)
+        1.  [Zmiana hasła](#org9cf25d1)
+        2.  [Logowanie](#orgbb289a7)
+        3.  [Rejestacja](#org72d40d0)
+    2.  [Konflikty](#org5499d96)
+        1.  [Przypadek 1](#org7a9ab25)
+        2.  [Przypadek 2](#org5262f44)
+        3.  [Przypadek 3](#orga6507db)
+5.  [Ćwiczenia 5](#org29becaf)
+    1.  [Rejestr udziałowców](#orgc4528f4)
+6.  [Ćwiczenia 6](#orge99286c)
+    1.  [DoD (Definition of Done)](#orgc01e5b3)
+    2.  [Kryteria akceptacji :: indywidualne kryteria która musi spełnić każda poszczególna historyjka](#orgae21d82)
+    3.  [Druga część](#orgc8fa573)
 
 
 
-<a id="orga3505bd"></a>
+<a id="org17b936f"></a>
 
 # Ćwiczenia 1
 
 
-<a id="orgedce556"></a>
+<a id="orgb83cd1b"></a>
 
 ## Dokumentacja projektu
 
 Dokumentacja z zajęć z przedmiotu fakultatywnego, prowadzonego przez firmę Visimind.
 
 
-<a id="org4f98a85"></a>
+<a id="orgbe16e6b"></a>
 
 ## Projekt tablicy kanban
 
 Na tworzenie aplikacji codziennie każdy powinien przeznaczyć 1,5h, a w czwartek dodatkowe 2,25h, ponieważ mamy planowo w tym czasie zajęcia przeznaczone do tworzenia tego projektu. Projekt i działająca aplikacja powinny być ukończone 25.05.2022r, więc mamy jako zespół 12 tygodni (117 godzin) pracy nad projektem.
 
 
-<a id="org96818cd"></a>
+<a id="orgfad6ab7"></a>
 
 ## Cel
 
 Celem naszego projektu jest stworzenie działającej tablicy kanban, w której zadania będą przypisywane do osób, możliwe będą rejestracja i logowanie, ułożenie ich wg progresu danego zadania.
 
 
-<a id="org69e1475"></a>
+<a id="org21e75e9"></a>
 
 ## Podział zespołów
 
@@ -73,33 +76,33 @@ Kazdy swoje poszczególne zadania i terminy ma już przypisane na specjalnie za�
 Co tydzień w poniedziałek jest spotkanie, na którym kontrolujemy postęp i ustalamy czego jeszcze brakuje.
 
 
-<a id="org9adb9d2"></a>
+<a id="org43516c1"></a>
 
 ## Analiza ryzyka
 
 
-<a id="orgf78e9ab"></a>
+<a id="orga8a635a"></a>
 
 ### Prawdopodobieństwo
 
 -   będzie tak dużo pracy własnej związanej ze studiami, że nie będziemy mogli poświęcić tak dużo czasu na tworzenie projektu.
 
 
-<a id="org114764f"></a>
+<a id="org60ac5ec"></a>
 
 ### Wpływ na projekt
 
 -   Jest to najbardzej prawdopodobna możliwość, która opóźniłaby powstawanie aplikacji,
 
 
-<a id="org9cabf94"></a>
+<a id="org44dadb4"></a>
 
 ### Sposób ograniczenia ryzyka
 
 -   dlatego jest zaplanowane codzienna praca, żeby teraz, póki semestr dopiero się zaczyna, zrobić więcej, ewentualnie szybciej skończyć. Jeżeli mimo to będą opóźnienia, to poszukamy pomocy, a jeżeli jej nie znajdziemy, to będziemy też poświęcać na to czas w sobotę i niedzielę.
 
 
-<a id="org6d9a836"></a>
+<a id="orgb73d6aa"></a>
 
 ### Reakcja
 
@@ -108,19 +111,19 @@ Co tydzień w poniedziałek jest spotkanie, na którym kontrolujemy postęp i us
 **\*zajęcia 04.03**
 
 
-<a id="orge08406b"></a>
+<a id="org13eba0a"></a>
 
 # Ćwiczenia 2
 
 
-<a id="org80d0efc"></a>
+<a id="orgd3082fd"></a>
 
 ## Epic
 
 Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planować swoje projekty rozbijając je na zadania i przypisując konkretne osoby i daty.
 
 
-<a id="org0376e23"></a>
+<a id="org905999e"></a>
 
 ## Feature
 
@@ -136,7 +139,7 @@ Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planowa
 10. Wysyłaj powiadomienia o zmianach wprowadzonych przez pozostałych użytkowników tablicy 40
 
 
-<a id="orge172a47"></a>
+<a id="org71a6b6f"></a>
 
 ## User story/task
 
@@ -155,17 +158,17 @@ Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planowa
 -   Połączyć front i back 40
 
 
-<a id="orgcaa5b6e"></a>
+<a id="org1db72e1"></a>
 
 # Ćwiczenia 3
 
 
-<a id="orgff07e5e"></a>
+<a id="org392525d"></a>
 
 ## Analiza SWOT (dla opisu przypadku)
 
 
-<a id="org7223887"></a>
+<a id="orgde8d206"></a>
 
 ### Strenghts
 
@@ -178,7 +181,7 @@ Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planowa
 -   pozostałe osoby z firmy umożliwiające prawidłowe funkcjonowanie firmy
 
 
-<a id="org9850f56"></a>
+<a id="orgbb5a34c"></a>
 
 ### Weakness
 
@@ -191,7 +194,7 @@ Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planowa
 -   możliwość odejścia seniora
 
 
-<a id="org027715b"></a>
+<a id="org88a2fd7"></a>
 
 ### Occasions
 
@@ -199,7 +202,7 @@ Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planowa
 -   możliwość wyboru pracowników spośród potencjalnych kandydatów w mieście
 
 
-<a id="org34432cb"></a>
+<a id="org60513c3"></a>
 
 ### Threats
 
@@ -208,7 +211,7 @@ Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planowa
 -   brak możliwości rozwinięcia się w pracy nad dużym projektem
 
 
-<a id="org6d370b4"></a>
+<a id="orgfbb2987"></a>
 
 ## Zadanie 2
 
@@ -216,43 +219,43 @@ Harmonogram / Wykres Ganta
 ![img](./images/harmonogram.png)
 
 
-<a id="org8ff2bf2"></a>
+<a id="org75edbf7"></a>
 
 # Ćwiczenia 4
 
 
-<a id="org2bf4c00"></a>
+<a id="org3d51388"></a>
 
 ## Schemat blokowy
 
 
-<a id="orge1c123c"></a>
+<a id="org9cf25d1"></a>
 
 ### Zmiana hasła
 
 ![img](./images/zmiana_hasla.drawio.svg)
 
 
-<a id="orgb866b18"></a>
+<a id="orgbb289a7"></a>
 
 ### Logowanie
 
 ![img](./images/logowanie.drawio.svg)
 
 
-<a id="org14be612"></a>
+<a id="org72d40d0"></a>
 
 ### Rejestacja
 
 ![img](./images/rejestracja.drawio.svg)
 
 
-<a id="org0f3ebf2"></a>
+<a id="org5499d96"></a>
 
 ## Konflikty
 
 
-<a id="org7083477"></a>
+<a id="org7a9ab25"></a>
 
 ### Przypadek 1
 
@@ -265,7 +268,7 @@ Harmonogram / Wykres Ganta
     -   zwolnić w razie konieczności
 
 
-<a id="orgf72a280"></a>
+<a id="org5262f44"></a>
 
 ### Przypadek 2
 
@@ -279,7 +282,7 @@ Harmonogram / Wykres Ganta
     -   doprecyzowanie jakie efekty przyniesie realizacja dema, by zrozumiec jego potrzebę
 
 
-<a id="orgff69243"></a>
+<a id="orga6507db"></a>
 
 ### Przypadek 3
 
@@ -293,12 +296,12 @@ Harmonogram / Wykres Ganta
     -   ustalenie czasu poświęconego przez Maćka na każdy projekt
 
 
-<a id="orga46672b"></a>
+<a id="org29becaf"></a>
 
 # Ćwiczenia 5
 
 
-<a id="org2ab44f1"></a>
+<a id="orgc4528f4"></a>
 
 ## Rejestr udziałowców
 
@@ -434,11 +437,91 @@ Harmonogram / Wykres Ganta
 </table>
 
 
-<a id="org84b6d6a"></a>
+<a id="orge99286c"></a>
 
-## Pytania
+# Ćwiczenia 6
 
--   Moje opisy git commitów są zawsze informatywne
--   Byłem na Litwie
--   Stałem na torach
+
+<a id="orgc01e5b3"></a>
+
+## DoD (Definition of Done)
+
+Dla portalu internetowego
+
+-   Wszystkie testy jednostkowe zaliczone
+-   Zaktualizowano rejestr produktów
+-   Projekt wdrożony na środowisku testowym identycznym z platformą produkcyjną
+-   Przeprowadzono testy na urządzeniach/przeglądarkach wymienionych w dokumentacji
+-   Przeszły testy kompatybilności wstecznej
+-   Testy wydajności przeszły pomyślnie
+-   Naprawiono wszystkie błędy
+-   Sprint oznaczony jako gotowy do wdrożenia produkcyjnego przez Właściciela Produktu
+
+
+<a id="orgae21d82"></a>
+
+## Kryteria akceptacji :: indywidualne kryteria która musi spełnić każda poszczególna historyjka
+
+-   **Dla przesyłania plików:** Jako użytkownik chcę przesłać zdjęcie na serwer
+    -   możliwość drag'n'drop obrazka z przeglądarki plików do przeglądarki internetowej
+    -   opcja **Wybierz plik** pozwalająca przeszukiwać system
+    -   sprawdzenie typu pliku
+    -   poinformowanie użytkownika o niepoprawnym formacie pliku w razie wybrania innego typu niż obraz
+    -   możliwość pobrania obrazu z serwera
+    -   możliwość wyświetlenia? obrazu na serwerze
+
+
+<a id="orgc8fa573"></a>
+
+## Druga część
+
+Poranne wstawanie
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">łazienka</th>
+<th scope="col" class="org-left">jedzenie</th>
+<th scope="col" class="org-left">podróż</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">mycie zębów</td>
+<td class="org-left">picie kawy</td>
+<td class="org-left">ubranie się</td>
+</tr>
+
+
+<tr>
+<td class="org-left">prysznic</td>
+<td class="org-left">zjedzenie ciastka</td>
+<td class="org-left">biegnięcie na przystanek</td>
+</tr>
+
+
+<tr>
+<td class="org-left">uczesanie się</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">podróż autobusem</td>
+</tr>
+
+
+<tr>
+<td class="org-left">suszenie włosów</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">spacer na uczelnię</td>
+</tr>
+</tbody>
+</table>
 
