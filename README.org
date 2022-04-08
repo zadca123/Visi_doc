@@ -23,6 +23,8 @@
 - [[#ćwiczenia-6][Ćwiczenia 6]]
   - [[#dod-definition-of-done][DoD (Definition of Done)]]
   - [[#kryteria-akceptacji][Kryteria akceptacji]]
+- [[#ćwiczenia-7][Ćwiczenia 7]]
+  - [[#burn-up][Burn up]]
 
 * Ćwiczenia 1
 ** Dokumentacja projektu
@@ -209,3 +211,6 @@
    - możliwość pobrania obrazu z serwera
    - możliwość wyświetlenia obrazu na serwerze jako miniatura lub cały obraz
    - ustanowienie limitu wielkości pliku do xMB
+* Ćwiczenia 7
+** Burn up
+   [[./images/burn_up.png]]
