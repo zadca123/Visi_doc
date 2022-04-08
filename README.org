@@ -25,6 +25,7 @@
   - [[#kryteria-akceptacji][Kryteria akceptacji]]
 - [[#ćwiczenia-7][Ćwiczenia 7]]
   - [[#burn-up][Burn up]]
+  - [[#burn-down][Burn down]]
 
 * Ćwiczenia 1
 ** Dokumentacja projektu
@@ -213,4 +214,9 @@
    - ustanowienie limitu wielkości pliku do xMB
 * Ćwiczenia 7
 ** Burn up
+   #+CAPTION: Diagram Burn Up (chyba)
    [[./images/burn_up.png]]
+
+** Burn down
+   #+CAPTION: Diagram Burn Down (chyba)
+   [[./images/burn_down.png]]

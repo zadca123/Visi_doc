@@ -1,71 +1,74 @@
 
 # Table of Contents
 
-1.  [Ćwiczenia 1](#orgc76ec87)
-    1.  [Dokumentacja projektu](#org285652d)
-    2.  [Projekt tablicy kanban](#org6b14025)
-    3.  [Cel](#org77d7993)
-    4.  [Podział zespołów](#orgbbcceee)
-    5.  [Analiza ryzyka](#org7b3efb1)
-        1.  [Prawdopodobieństwo](#orga64d490)
-        2.  [Wpływ na projekt](#org32ba670)
-        3.  [Sposób ograniczenia ryzyka](#orgc65365b)
-        4.  [Reakcja](#org95fcff7)
-2.  [Ćwiczenia 2](#orga0a165d)
-    1.  [Epic](#orgbb31fc7)
-    2.  [Feature](#org532b966)
-    3.  [User story/task](#org0610d16)
-3.  [Ćwiczenia 3](#org3cf5846)
-    1.  [Analiza SWOT (dla opisu przypadku)](#org0bb7dc5)
-        1.  [Strenghts](#org1af6d09)
-        2.  [Weakness](#org6856860)
-        3.  [Occasions](#org3f61900)
-        4.  [Threats](#orga5210e0)
-    2.  [Zadanie 2](#org1d8a706)
-4.  [Ćwiczenia 4](#org99df863)
-    1.  [Schemat blokowy](#org288f814)
-        1.  [Zmiana hasła](#orgeac316a)
-        2.  [Logowanie](#org54939cf)
-        3.  [Rejestacja](#org1f957b7)
-    2.  [Konflikty](#org15ffc7d)
-        1.  [Przypadek 1](#org1f9dbd1)
-        2.  [Przypadek 2](#orgf1e4007)
-        3.  [Przypadek 3](#org41cf442)
-5.  [Ćwiczenia 5](#orgf91a33b)
-    1.  [Rejestr udziałowców](#org617291d)
-6.  [Ćwiczenia 6](#orgea309de)
-    1.  [DoD (Definition of Done)](#orga0e1bcc)
-    2.  [Kryteria akceptacji](#org6f410e3)
+1.  [Ćwiczenia 1](#org264c561)
+    1.  [Dokumentacja projektu](#orgef35634)
+    2.  [Projekt tablicy kanban](#orge9d9894)
+    3.  [Cel](#org9d824a2)
+    4.  [Podział zespołów](#org2b2f9f6)
+    5.  [Analiza ryzyka](#org7e3a615)
+        1.  [Prawdopodobieństwo](#org6b8b05b)
+        2.  [Wpływ na projekt](#org487e38c)
+        3.  [Sposób ograniczenia ryzyka](#orgc2d876d)
+        4.  [Reakcja](#orge52b126)
+2.  [Ćwiczenia 2](#org9f91f91)
+    1.  [Epic](#orgb7db01b)
+    2.  [Feature](#org6de2cee)
+    3.  [User story/task](#orgdd922a9)
+3.  [Ćwiczenia 3](#org8b7ab8a)
+    1.  [Analiza SWOT (dla opisu przypadku)](#orgc05b7b1)
+        1.  [Strenghts](#orgf2564f6)
+        2.  [Weakness](#org20bbd11)
+        3.  [Occasions](#orgda08d63)
+        4.  [Threats](#orge9945e7)
+    2.  [Zadanie 2](#org5105638)
+4.  [Ćwiczenia 4](#org6e08514)
+    1.  [Schemat blokowy](#org043f75a)
+        1.  [Zmiana hasła](#orgeb94d77)
+        2.  [Logowanie](#orgc588c6c)
+        3.  [Rejestacja](#org9113184)
+    2.  [Konflikty](#orgcd5b4b3)
+        1.  [Przypadek 1](#orgceb8abf)
+        2.  [Przypadek 2](#orgda1e8c2)
+        3.  [Przypadek 3](#org91c6add)
+5.  [Ćwiczenia 5](#org3145e84)
+    1.  [Rejestr udziałowców](#org6cf5a5b)
+6.  [Ćwiczenia 6](#orgdd12cd2)
+    1.  [DoD (Definition of Done)](#orgc6a04a3)
+    2.  [Kryteria akceptacji](#orgb6e30da)
+7.  [Ćwiczenia 7](#org716fcfd)
+    1.  [Burn up](#org6784278)
+    2.  [Burn down](#org90bfa7d)
 
 
 
-<a id="orgc76ec87"></a>
+<a id="org264c561"></a>
 
 # Ćwiczenia 1
 
 
-<a id="org285652d"></a>
+<a id="orgef35634"></a>
 
 ## Dokumentacja projektu
 
 Dokumentacja z zajęć z przedmiotu fakultatywnego, prowadzonego przez firmę Visimind.
 
 
-<a id="org6b14025"></a>
+<a id="orge9d9894"></a>
 
 ## Projekt tablicy kanban
 
 Na tworzenie aplikacji codziennie każdy powinien przeznaczyć 1,5h, a w czwartek dodatkowe 2,25h, ponieważ mamy planowo w tym czasie zajęcia przeznaczone do tworzenia tego projektu. Projekt i działająca aplikacja powinny być ukończone 25.05.2022r, więc mamy jako zespół 12 tygodni (117 godzin) pracy nad projektem.
 
 
-<a id="org77d7993"></a>
+<a id="org9d824a2"></a>
 
 ## Cel
 
 Celem naszego projektu jest stworzenie działającej tablicy kanban, w której zadania będą przypisywane do osób, możliwe będą rejestracja i logowanie, ułożenie ich wg progresu danego zadania.
 
 
-<a id="orgbbcceee"></a>
+<a id="org2b2f9f6"></a>
 
 ## Podział zespołów
 
@@ -75,33 +78,33 @@ Kazdy swoje poszczególne zadania i terminy ma już przypisane na specjalnie za�
 Co tydzień w poniedziałek jest spotkanie, na którym kontrolujemy postęp i ustalamy czego jeszcze brakuje.
 
 
-<a id="org7b3efb1"></a>
+<a id="org7e3a615"></a>
 
 ## Analiza ryzyka
 
 
-<a id="orga64d490"></a>
+<a id="org6b8b05b"></a>
 
 ### Prawdopodobieństwo
 
 -   będzie tak dużo pracy własnej związanej ze studiami, że nie będziemy mogli poświęcić tak dużo czasu na tworzenie projektu.
 
 
-<a id="org32ba670"></a>
+<a id="org487e38c"></a>
 
 ### Wpływ na projekt
 
 -   Jest to najbardzej prawdopodobna możliwość, która opóźniłaby powstawanie aplikacji,
 
 
-<a id="orgc65365b"></a>
+<a id="orgc2d876d"></a>
 
 ### Sposób ograniczenia ryzyka
 
 -   dlatego jest zaplanowane codzienna praca, żeby teraz, póki semestr dopiero się zaczyna, zrobić więcej, ewentualnie szybciej skończyć. Jeżeli mimo to będą opóźnienia, to poszukamy pomocy, a jeżeli jej nie znajdziemy, to będziemy też poświęcać na to czas w sobotę i niedzielę.
 
 
-<a id="org95fcff7"></a>
+<a id="orge52b126"></a>
 
 ### Reakcja
 
@@ -110,19 +113,19 @@ Co tydzień w poniedziałek jest spotkanie, na którym kontrolujemy postęp i us
 **\*zajęcia 04.03**
 
 
-<a id="orga0a165d"></a>
+<a id="org9f91f91"></a>
 
 # Ćwiczenia 2
 
 
-<a id="orgbb31fc7"></a>
+<a id="orgb7db01b"></a>
 
 ## Epic
 
 Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planować swoje projekty rozbijając je na zadania i przypisując konkretne osoby i daty.
 
 
-<a id="org532b966"></a>
+<a id="org6de2cee"></a>
 
 ## Feature
 
@@ -138,7 +141,7 @@ Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planowa
 10. Wysyłaj powiadomienia o zmianach wprowadzonych przez pozostałych użytkowników tablicy 40
 
 
-<a id="org0610d16"></a>
+<a id="orgdd922a9"></a>
 
 ## User story/task
 
@@ -157,17 +160,17 @@ Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planowa
 -   Połączyć front i back 40
 
 
-<a id="org3cf5846"></a>
+<a id="org8b7ab8a"></a>
 
 # Ćwiczenia 3
 
 
-<a id="org0bb7dc5"></a>
+<a id="orgc05b7b1"></a>
 
 ## Analiza SWOT (dla opisu przypadku)
 
 
-<a id="org1af6d09"></a>
+<a id="orgf2564f6"></a>
 
 ### Strenghts
 
@@ -180,7 +183,7 @@ Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planowa
 -   pozostałe osoby z firmy umożliwiające prawidłowe funkcjonowanie firmy
 
 
-<a id="org6856860"></a>
+<a id="org20bbd11"></a>
 
 ### Weakness
 
@@ -193,7 +196,7 @@ Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planowa
 -   możliwość odejścia seniora
 
 
-<a id="org3f61900"></a>
+<a id="orgda08d63"></a>
 
 ### Occasions
 
@@ -201,7 +204,7 @@ Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planowa
 -   możliwość wyboru pracowników spośród potencjalnych kandydatów w mieście
 
 
-<a id="orga5210e0"></a>
+<a id="orge9945e7"></a>
 
 ### Threats
 
@@ -210,7 +213,7 @@ Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planowa
 -   brak możliwości rozwinięcia się w pracy nad dużym projektem
 
 
-<a id="org1d8a706"></a>
+<a id="org5105638"></a>
 
 ## Zadanie 2
 
@@ -218,43 +221,43 @@ Harmonogram / Wykres Ganta
 ![img](./images/harmonogram.png)
 
 
-<a id="org99df863"></a>
+<a id="org6e08514"></a>
 
 # Ćwiczenia 4
 
 
-<a id="org288f814"></a>
+<a id="org043f75a"></a>
 
 ## Schemat blokowy
 
 
-<a id="orgeac316a"></a>
+<a id="orgeb94d77"></a>
 
 ### Zmiana hasła
 
 ![img](./images/zmiana_hasla.drawio.svg)
 
 
-<a id="org54939cf"></a>
+<a id="orgc588c6c"></a>
 
 ### Logowanie
 
 ![img](./images/logowanie.drawio.svg)
 
 
-<a id="org1f957b7"></a>
+<a id="org9113184"></a>
 
 ### Rejestacja
 
 ![img](./images/rejestracja.drawio.svg)
 
 
-<a id="org15ffc7d"></a>
+<a id="orgcd5b4b3"></a>
 
 ## Konflikty
 
 
-<a id="org1f9dbd1"></a>
+<a id="orgceb8abf"></a>
 
 ### Przypadek 1
 
@@ -267,7 +270,7 @@ Harmonogram / Wykres Ganta
     -   zwolnić w razie konieczności
 
 
-<a id="orgf1e4007"></a>
+<a id="orgda1e8c2"></a>
 
 ### Przypadek 2
 
@@ -281,7 +284,7 @@ Harmonogram / Wykres Ganta
     -   doprecyzowanie jakie efekty przyniesie realizacja dema, by zrozumiec jego potrzebę
 
 
-<a id="org41cf442"></a>
+<a id="org91c6add"></a>
 
 ### Przypadek 3
 
@@ -295,12 +298,12 @@ Harmonogram / Wykres Ganta
     -   ustalenie czasu poświęconego przez Maćka na każdy projekt
 
 
-<a id="orgf91a33b"></a>
+<a id="org3145e84"></a>
 
 # Ćwiczenia 5
 
 
-<a id="org617291d"></a>
+<a id="org6cf5a5b"></a>
 
 ## Rejestr udziałowców
 
@@ -436,12 +439,12 @@ Harmonogram / Wykres Ganta
 </table>
 
 
-<a id="orgea309de"></a>
+<a id="orgdd12cd2"></a>
 
 # Ćwiczenia 6
 
 
-<a id="orga0e1bcc"></a>
+<a id="orgc6a04a3"></a>
 
 ## DoD (Definition of Done)
 
@@ -461,7 +464,7 @@ Harmonogram / Wykres Ganta
 -   Sprint oznaczony jako gotowy do wdrożenia produkcyjnego przez Właściciela Produktu
 
 
-<a id="org6f410e3"></a>
+<a id="orgb6e30da"></a>
 
 ## Kryteria akceptacji
 
@@ -475,4 +478,23 @@ Harmonogram / Wykres Ganta
 -   możliwość pobrania obrazu z serwera
 -   możliwość wyświetlenia obrazu na serwerze jako miniatura lub cały obraz
 -   ustanowienie limitu wielkości pliku do xMB
+
+
+<a id="org716fcfd"></a>
+
+# Ćwiczenia 7
+
+
+<a id="org6784278"></a>
+
+## Burn up
+
+![img](./images/burn_up.png "Diagram Burn Up (chyba)")
+
+
+<a id="org90bfa7d"></a>
+
+## Burn down
+
+![img](./images/burn_down.png "Diagram Burn Down (chyba)")
 
