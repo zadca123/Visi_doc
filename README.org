@@ -30,8 +30,7 @@
   - [[#wymagania-sprzętowe][Wymagania sprzętowe]]
   - [[#instrukcja-instalacji-postregsql][Instrukcja instalacji postregsql]]
   - [[#tworzenie-bazy-danych][Tworzenie bazy danych]]
-  - [[#tworzenie-backupu-bazy-danych][Tworzenie backupu bazy danych]]
-  - [[#przywrócenie-backupu-w-środowisku-klienta][Przywrócenie backupu w środowisku klienta]]
+  - [[#backup-bazy-danych][Backup bazy danych]]
 
 * Ćwiczenia 1
 ** Dokumentacja projektu
@@ -268,16 +267,17 @@ Sprawdzanie wersji zainstalowanej wersji
      : INSERT INTO users(login,password) VALUES('admin', 'admin');
      : INSERT INTO users(login,password) VALUES('qwe', 'qwe');
      : INSERT INTO users(login,password) VALUES('kaczka', 'eeee');
-   
-** Tworzenie backupu bazy danych
-Jest to bardzo prosta operacja, precyzujemy nazwę bazy do archiwizacji. W tym przypadku /test/.
-: pg_dump test > testdb.backup
-** Przywrócenie backupu w środowisku klienta
-Podobnie jak tworzenie, przywracanie działa analogicznie. Należy jednak wcześniej stworzyć bazę.
-: psql
-: CREATE DATABASE test;
-Importujemy za pomocą:
-: psql test < testdb.backup
-: psql
-: \connect test
-: SELECT * FROM users
+     
+** Backup bazy danych
+- Tworzenie
+  Jest to bardzo prosta operacja, precyzujemy nazwę bazy do archiwizacji. W tym przypadku /test/.
+  : pg_dump test > testdb.backup
+- Przywrócenie
+  Podobnie jak tworzenie, przywracanie działa analogicznie. Należy jednak wcześniej stworzyć bazę.
+  : psql
+  : CREATE DATABASE test;
+  Importujemy za pomocą:
+  : psql test < testdb.backup
+  : psql
+  : \connect test
+  : SELECT * FROM users;
