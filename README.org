@@ -26,197 +26,258 @@
 - [[#ćwiczenia-7][Ćwiczenia 7]]
   - [[#burn-up][Burn up]]
   - [[#burn-down][Burn down]]
+- [[#ćwiczenia-8][Ćwiczenia 8]]
+  - [[#wymagania-sprzętowe][Wymagania sprzętowe]]
+  - [[#instrukcja-instalacji-postregsql][Instrukcja instalacji postregsql]]
+  - [[#tworzenie-bazy-danych][Tworzenie bazy danych]]
+  - [[#tworzenie-backupu-bazy-danych][Tworzenie backupu bazy danych]]
+  - [[#przywrócenie-backupu-w-środowisku-klienta][Przywrócenie backupu w środowisku klienta]]
 
 * Ćwiczenia 1
 ** Dokumentacja projektu
-   Dokumentacja z zajęć z przedmiotu fakultatywnego, prowadzonego przez firmę Visimind.
+Dokumentacja z zajęć z przedmiotu fakultatywnego, prowadzonego przez firmę Visimind.
 
 ** Projekt tablicy kanban
-   Na tworzenie aplikacji codziennie każdy powinien przeznaczyć 1,5h, a w czwartek dodatkowe 2,25h, ponieważ mamy planowo w tym czasie zajęcia przeznaczone do tworzenia tego projektu. Projekt i działająca aplikacja powinny być ukończone 25.05.2022r, więc mamy jako zespół 12 tygodni (117 godzin) pracy nad projektem.
+Na tworzenie aplikacji codziennie każdy powinien przeznaczyć 1,5h, a w czwartek dodatkowe 2,25h, ponieważ mamy planowo w tym czasie zajęcia przeznaczone do tworzenia tego projektu. Projekt i działająca aplikacja powinny być ukończone 25.05.2022r, więc mamy jako zespół 12 tygodni (117 godzin) pracy nad projektem.
 
 ** Cel
-   Celem naszego projektu jest stworzenie działającej tablicy kanban, w której zadania będą przypisywane do osób, możliwe będą rejestracja i logowanie, ułożenie ich wg progresu danego zadania.
+Celem naszego projektu jest stworzenie działającej tablicy kanban, w której zadania będą przypisywane do osób, możliwe będą rejestracja i logowanie, ułożenie ich wg progresu danego zadania.
 
 ** Podział zespołów 
-   za front-end odpowiadają 2 osoby, za back-end 3 osoby, które znają biegle technologie, z których zdecydowaliśmy się korzystać.
-   W momencie pojawienia się problemów będziemy ustalać, kto zajmie się czymś dodatkowo. 
-   Kazdy swoje poszczególne zadania i terminy ma już przypisane na specjalnie założonej tablicy kanban.
-   Co tydzień w poniedziałek jest spotkanie, na którym kontrolujemy postęp i ustalamy czego jeszcze brakuje.
+za front-end odpowiadają 2 osoby, za back-end 3 osoby, które znają biegle technologie, z których zdecydowaliśmy się korzystać.
+W momencie pojawienia się problemów będziemy ustalać, kto zajmie się czymś dodatkowo. 
+Kazdy swoje poszczególne zadania i terminy ma już przypisane na specjalnie założonej tablicy kanban.
+Co tydzień w poniedziałek jest spotkanie, na którym kontrolujemy postęp i ustalamy czego jeszcze brakuje.
 
 ** Analiza ryzyka
 *** Prawdopodobieństwo
-    - będzie tak dużo pracy własnej związanej ze studiami, że nie będziemy mogli poświęcić tak dużo czasu na tworzenie projektu. 
+- będzie tak dużo pracy własnej związanej ze studiami, że nie będziemy mogli poświęcić tak dużo czasu na tworzenie projektu. 
 *** Wpływ na projekt
-    - Jest to najbardzej prawdopodobna możliwość, która opóźniłaby powstawanie aplikacji,
+- Jest to najbardzej prawdopodobna możliwość, która opóźniłaby powstawanie aplikacji,
 *** Sposób ograniczenia ryzyka
-    - dlatego jest zaplanowane codzienna praca, żeby teraz, póki semestr dopiero się zaczyna, zrobić więcej, ewentualnie szybciej skończyć. Jeżeli mimo to będą opóźnienia, to poszukamy pomocy, a jeżeli jej nie znajdziemy, to będziemy też poświęcać na to czas w sobotę i niedzielę. 
+- dlatego jest zaplanowane codzienna praca, żeby teraz, póki semestr dopiero się zaczyna, zrobić więcej, ewentualnie szybciej skończyć. Jeżeli mimo to będą opóźnienia, to poszukamy pomocy, a jeżeli jej nie znajdziemy, to będziemy też poświęcać na to czas w sobotę i niedzielę. 
 *** Reakcja
-    - w przypadku choroby któregoś z współuczestników projektu, pozostałe osoby rozdzielą między siebie jego zadania, by nie opóźnić progresu, ale też by nie obciążyć znacznie większą ilością zadań tylko jednej osoby. 
+- w przypadku choroby któregoś z współuczestników projektu, pozostałe osoby rozdzielą między siebie jego zadania, by nie opóźnić progresu, ale też by nie obciążyć znacznie większą ilością zadań tylko jednej osoby. 
 
 
 
-    **zajęcia 04.03*
+**zajęcia 04.03*
 
 * Ćwiczenia 2
 ** Epic 
-   Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planować swoje projekty rozbijając je na zadania i przypisując konkretne osoby i daty.
+Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planować swoje projekty rozbijając je na zadania i przypisując konkretne osoby i daty.
 ** Feature
-   1. w ciągu tygodni(?)
-   2. zaloguj się 13
-   3. Stwórz tablicę 50 
-   4. Dodaj kolumny i nazywaj je 13
-   5. Stwórz zadania 8
-   6. Dopisuj terminy do zadań 8
-   7. Utwórz listę podzadań do zadania 20
-   8. Przypisz zadania do poszczególnych osób z projektu 40
-   9. Przenoś zadania między kolumnami 20
-   10. Wysyłaj powiadomienia o zmianach wprowadzonych przez pozostałych użytkowników tablicy 40
+1. w ciągu tygodni(?)
+2. zaloguj się 13
+3. Stwórz tablicę 50 
+4. Dodaj kolumny i nazywaj je 13
+5. Stwórz zadania 8
+6. Dopisuj terminy do zadań 8
+7. Utwórz listę podzadań do zadania 20
+8. Przypisz zadania do poszczególnych osób z projektu 40
+9. Przenoś zadania między kolumnami 20
+10. Wysyłaj powiadomienia o zmianach wprowadzonych przez pozostałych użytkowników tablicy 40
 
 ** User story/task 
 
-   - ustalić technologie w których tworzymy projekt 1
-   - podzielić się na front i back 1
-   - zainicjować projekt 1
-   - zainstalować pakiety 2
-   - podpiąć bazę danych 5
-     - **stworzyć:**
-       - modele 20
-       - views 13
-       - urls 13
-       - settings 8
-   - Utworzyć index.html i pozostałe templatki 50
-   - Stworzyć odpowiednie pliki js i css 50
-   - Połączyć front i back 40
+- ustalić technologie w których tworzymy projekt 1
+- podzielić się na front i back 1
+- zainicjować projekt 1
+- zainstalować pakiety 2
+- podpiąć bazę danych 5
+  - **stworzyć:**
+    - modele 20
+    - views 13
+    - urls 13
+    - settings 8
+- Utworzyć index.html i pozostałe templatki 50
+- Stworzyć odpowiednie pliki js i css 50
+- Połączyć front i back 40
 
 * Ćwiczenia 3
 ** Analiza SWOT (dla opisu przypadku)
 *** Strenghts 
-    - senior w ekipie
-    - zespół może płynnie pracować, bo najsłabsi mają się od kogo uczyć
-    - w razie błędów senior może zareagować szybko
-    - developerzy Full Stack
-    - stały dochód
-    - własne biuro i sprzęt 
-    - pozostałe osoby z firmy umożliwiające prawidłowe funkcjonowanie firmy
+- senior w ekipie
+- zespół może płynnie pracować, bo najsłabsi mają się od kogo uczyć
+- w razie błędów senior może zareagować szybko
+- developerzy Full Stack
+- stały dochód
+- własne biuro i sprzęt 
+- pozostałe osoby z firmy umożliwiające prawidłowe funkcjonowanie firmy
 
 *** Weakness
-    - dwóch juniorów
-    - czy pracują osobno i każdy ma na głowie swój projekt czy współpracują przy tworzeniu projektów
-    - praca stacjonarna
-    - praca w małym mieście może oznaczać, że przyszli pracownicy będą musieli być wybierani z wąskiego grona chętnych
-    - indywidualizm (ja w zespole)
-    - w biurze mogą znajdować się przestarzałe komputery
-    - możliwość odejścia seniora
+- dwóch juniorów
+- czy pracują osobno i każdy ma na głowie swój projekt czy współpracują przy tworzeniu projektów
+- praca stacjonarna
+- praca w małym mieście może oznaczać, że przyszli pracownicy będą musieli być wybierani z wąskiego grona chętnych
+- indywidualizm (ja w zespole)
+- w biurze mogą znajdować się przestarzałe komputery
+- możliwość odejścia seniora
 
 *** Occasions
-    - mała konkurencja w mieście
-    - możliwość wyboru pracowników spośród potencjalnych kandydatów w mieście
+- mała konkurencja w mieście
+- możliwość wyboru pracowników spośród potencjalnych kandydatów w mieście
 
 *** Threats
-    - lokalizacja biura (Morąg) może nie każdemu odpowiadać
-    - zmieniające się podatki i regulacje prawne
-    - brak możliwości rozwinięcia się w pracy nad dużym projektem
+- lokalizacja biura (Morąg) może nie każdemu odpowiadać
+- zmieniające się podatki i regulacje prawne
+- brak możliwości rozwinięcia się w pracy nad dużym projektem
 
 
 
 
 
 ** Zadanie 2
-   Harmonogram / Wykres Ganta
-   [[./images/harmonogram.png]]
-   # - Modyfikacja frontendu - dodanie 3 widoków (3h)
-   # - Modyfikacja backendu - dodanie generowania raportów (5h)
-   # - Dodanie wysyłania i pobierania plików (4h)
-   #   - Sprawdzenie czy plik istnieje (3h)
-   #     - nazwa (30min)
-   #     - rozmiar (30min)
-   #     - hash  (1h)
-   #     - itd...
-   #    - Ostrzeżenie przed nadpisem (1h)
+Harmonogram / Wykres Ganta
+[[./images/harmonogram.png]]
+# - Modyfikacja frontendu - dodanie 3 widoków (3h)
+# - Modyfikacja backendu - dodanie generowania raportów (5h)
+# - Dodanie wysyłania i pobierania plików (4h)
+#   - Sprawdzenie czy plik istnieje (3h)
+#     - nazwa (30min)
+#     - rozmiar (30min)
+#     - hash  (1h)
+#     - itd...
+#    - Ostrzeżenie przed nadpisem (1h)
 
 * Ćwiczenia 4
 ** Schemat blokowy
 *** Zmiana hasła
-    [[./images/zmiana_hasla.drawio.svg]]
+[[./images/zmiana_hasla.drawio.svg]]
 *** Logowanie
-    [[./images/logowanie.drawio.svg]]
+[[./images/logowanie.drawio.svg]]
 *** Rejestacja
-    [[./images/rejestracja.drawio.svg]]
+[[./images/rejestracja.drawio.svg]]
   
 ** Konflikty
 *** Przypadek 1
-    #+begin_quote
-    Piotr zachowuje się agresywnie w stosunku do innych uczestników.
-    #+end_quote
-    - Przeciwdziałania
-      - zapytać Piotra jaki jest powód jego agresji
-      - rozmowa z innymi członkami projektu na temat zaistniałej sytuacji i wytłumaczenie wszelkich niepewności
-      - zafundować wizytę u psychologa lub urlop
-      - zwolnić w razie konieczności
+#+begin_quote
+Piotr zachowuje się agresywnie w stosunku do innych uczestników.
+#+end_quote
+- Przeciwdziałania
+  - zapytać Piotra jaki jest powód jego agresji
+  - rozmowa z innymi członkami projektu na temat zaistniałej sytuacji i wytłumaczenie wszelkich niepewności
+  - zafundować wizytę u psychologa lub urlop
+  - zwolnić w razie konieczności
 *** Przypadek 2
-    #+begin_quote
-    Przełożony wymaga przygotowania demo, które nie było zaplanowane w sprincie co powoduje opóźnienie w projekcie.
-    #+end_quote
-    - Przeciwdziałania
-      - zrobić miejsce na demo kosztem jednego z punktów sprintu
-      - przekonać przełożonego, że strata wynikająca z niedotrzymania terminów jest większa niż z braku przygotowania demo
-      - poproszenie o przesunięcie dęadline'a projektu
-      - doprecyzowanie w jakim celu jest potrzebne wykonanie tego demo 
-      - doprecyzowanie jakie efekty przyniesie realizacja dema, by zrozumiec jego potrzebę
+#+begin_quote
+Przełożony wymaga przygotowania demo, które nie było zaplanowane w sprincie co powoduje opóźnienie w projekcie.
+#+end_quote
+- Przeciwdziałania
+  - zrobić miejsce na demo kosztem jednego z punktów sprintu
+  - przekonać przełożonego, że strata wynikająca z niedotrzymania terminów jest większa niż z braku przygotowania demo
+  - poproszenie o przesunięcie dęadline'a projektu
+  - doprecyzowanie w jakim celu jest potrzebne wykonanie tego demo 
+  - doprecyzowanie jakie efekty przyniesie realizacja dema, by zrozumiec jego potrzebę
 
 *** Przypadek 3
-    #+begin_quote
-    Maciek jest wspaniałym analitykiem i jego wiedza pomogłaby w realizacji projektu. Niestety zespół z równolegle prowadzonego projektu rówhież potrzebuje jego wsparcia.
-    #+end_quote
-    - Przeciwdziałania
-      - zapytać Maćka czy jest w stanie nadzorować dwa projekty jednocześnie
-      - wydzielenie Maćkowi po dniu dla każdego zespołu
-      - zlecić pracę analityka z zewnątrz
-      - ustalenie który projekt jest ważniejszy
-      - ustalenie czasu poświęconego przez Maćka na każdy projekt
+#+begin_quote
+Maciek jest wspaniałym analitykiem i jego wiedza pomogłaby w realizacji projektu. Niestety zespół z równolegle prowadzonego projektu rówhież potrzebuje jego wsparcia.
+#+end_quote
+- Przeciwdziałania
+  - zapytać Maćka czy jest w stanie nadzorować dwa projekty jednocześnie
+  - wydzielenie Maćkowi po dniu dla każdego zespołu
+  - zlecić pracę analityka z zewnątrz
+  - ustalenie który projekt jest ważniejszy
+  - ustalenie czasu poświęconego przez Maćka na każdy projekt
 * Ćwiczenia 5
 ** Rejestr udziałowców
-   | L.P. | Rodzaj      | Nazwa                | Opis                           | Rola                                    | Oczekiwania                     | Wpływ                                                   | Komunikacja     |
-   |------+-------------+----------------------+--------------------------------+-----------------------------------------+---------------------------------+---------------------------------------------------------+-----------------|
-   |    1 | grupa       | administracja it     | administracja it               | przygotowanie infrastuktury             | przekazanie wymagań             | zapewnienie środowiska                                  | spotkania       |
-   |    2 | grupa       | dewelperzy           | deweloperzy                    | przygotowanie aplikacji                 | przekazanie wymagań             | stworzenie aplikacji                                    | spotkania       |
-   |    3 | osoba       | product owner        | product owner                  | objaśnienie funkcji aplikacji (backlog) | dostarczenie aplikacji          | objaśnienie deweloperom wymagań aplikacji               | spotkania       |
-   |    4 | osoba       | project manager      | project manager                | nadzorowanie projektem                  | zakończenie projektu w terminie | rozwiązywanie problemów                                 | spotkania       |
-   |    5 | organizacja | firma zlecająca xyz  | firma zlecająca xyz            | wizjonerzy                              | funkcjonalna aplikacja          | wysyła product ownera na rozmowy o aplikacji            | product         |
-   |    6 | osoba       | prezes firmy xyz     | prezes firmy xyz               | sponsor                                 | funkcjonalna aplikacja          | wkład pieniężny                                         | product owner   |
-   |    7 | organizacja | UODO                 | urząd ochrony danych osobowych | monitorowanie                           | zgodnosc z przepisami           | możlowiść nałożenia kar                                 | formalna        |
-   |    8 | organizacja | firma wykonująca xyz | firma wykonująca xyz           | zespół produkcyjny                      | zapłata                         | dostarcza narzędzia oraz zespół do stworzenia aplikacji | product manager |
+| L.P. | Rodzaj      | Nazwa                | Opis                           | Rola                                    | Oczekiwania                     | Wpływ                                                   | Komunikacja     |
+|------+-------------+----------------------+--------------------------------+-----------------------------------------+---------------------------------+---------------------------------------------------------+-----------------|
+|    1 | grupa       | administracja it     | administracja it               | przygotowanie infrastuktury             | przekazanie wymagań             | zapewnienie środowiska                                  | spotkania       |
+|    2 | grupa       | dewelperzy           | deweloperzy                    | przygotowanie aplikacji                 | przekazanie wymagań             | stworzenie aplikacji                                    | spotkania       |
+|    3 | osoba       | product owner        | product owner                  | objaśnienie funkcji aplikacji (backlog) | dostarczenie aplikacji          | objaśnienie deweloperom wymagań aplikacji               | spotkania       |
+|    4 | osoba       | project manager      | project manager                | nadzorowanie projektem                  | zakończenie projektu w terminie | rozwiązywanie problemów                                 | spotkania       |
+|    5 | organizacja | firma zlecająca xyz  | firma zlecająca xyz            | wizjonerzy                              | funkcjonalna aplikacja          | wysyła product ownera na rozmowy o aplikacji            | product         |
+|    6 | osoba       | prezes firmy xyz     | prezes firmy xyz               | sponsor                                 | funkcjonalna aplikacja          | wkład pieniężny                                         | product owner   |
+|    7 | organizacja | UODO                 | urząd ochrony danych osobowych | monitorowanie                           | zgodnosc z przepisami           | możlowiść nałożenia kar                                 | formalna        |
+|    8 | organizacja | firma wykonująca xyz | firma wykonująca xyz           | zespół produkcyjny                      | zapłata                         | dostarcza narzędzia oraz zespół do stworzenia aplikacji | product manager |
 * Ćwiczenia 6
-  # ** DoR (Definition of Ready)
+# ** DoR (Definition of Ready)
 ** DoD (Definition of Done)
-   : Dla portalu internetowego
-   - Test ortografii
-   - Test responsywności
-   - Test czytelności
-   - Czy wyświetla się w różnych przeglądarkach i systemach
-   - Wszystkie testy jednostkowe zaliczone
-   - Zaktualizowano rejestr produktów
-   - Projekt wdrożony na środowisku testowym identycznym z platformą produkcyjną
-   - Przeprowadzono testy na urządzeniach/przeglądarkach wymienionych w dokumentacji
-   - Przeszły testy kompatybilności wstecznej
-   - Testy wydajności przeszły pomyślnie
-   - Naprawiono wszystkie błędy
-   - Sprint oznaczony jako gotowy do wdrożenia produkcyjnego przez Właściciela Produktu
+: Dla portalu internetowego
+- Test ortografii
+- Test responsywności
+- Test czytelności
+- Czy wyświetla się w różnych przeglądarkach i systemach
+- Wszystkie testy jednostkowe zaliczone
+- Zaktualizowano rejestr produktów
+- Projekt wdrożony na środowisku testowym identycznym z platformą produkcyjną
+- Przeprowadzono testy na urządzeniach/przeglądarkach wymienionych w dokumentacji
+- Przeszły testy kompatybilności wstecznej
+- Testy wydajności przeszły pomyślnie
+- Naprawiono wszystkie błędy
+- Sprint oznaczony jako gotowy do wdrożenia produkcyjnego przez Właściciela Produktu
 ** Kryteria akceptacji
-   : indywidualne kryteria która musi spełnić każda poszczególna historyjka
-   : Dla przesyłania plików - Jako użytkownik chcę przesłać zdjęcie na serwer
-   - możliwość drag'n'drop obrazka z przeglądarki plików do przeglądarki internetowej
-   - opcja *Wybierz plik* pozwalająca przeszukiwać system
-   - sprawdzenie typu pliku
-   - poinformowanie użytkownika o niepoprawnym formacie pliku w razie wybrania innego typu niż obraz
-   - możliwość pobrania obrazu z serwera
-   - możliwość wyświetlenia obrazu na serwerze jako miniatura lub cały obraz
-   - ustanowienie limitu wielkości pliku do xMB
+: indywidualne kryteria która musi spełnić każda poszczególna historyjka
+: Dla przesyłania plików - Jako użytkownik chcę przesłać zdjęcie na serwer
+- możliwość drag'n'drop obrazka z przeglądarki plików do przeglądarki internetowej
+- opcja *Wybierz plik* pozwalająca przeszukiwać system
+- sprawdzenie typu pliku
+- poinformowanie użytkownika o niepoprawnym formacie pliku w razie wybrania innego typu niż obraz
+- możliwość pobrania obrazu z serwera
+- możliwość wyświetlenia obrazu na serwerze jako miniatura lub cały obraz
+- ustanowienie limitu wielkości pliku do xMB
 * Ćwiczenia 7
 ** Burn up
-   #+CAPTION: Diagram Burn Up (chyba)
-   [[./images/burn_up.png]]
+#+CAPTION: Diagram Burn Up (chyba)
+[[./images/burn_up.png]]
 
 ** Burn down
-   #+CAPTION: Diagram Burn Down (chyba)
-   [[./images/burn_down.png]]
+#+CAPTION: Diagram Burn Down (chyba)
+[[./images/burn_down.png]]
+
+* Ćwiczenia 8
+** Wymagania sprzętowe
+[[https://www.postgresql.org/docs/current/install-requirements.html]]
+[[https://www.postgresql.org/message-id/m3k75ewlwa.fsf@wolfe.cbbrowne.com]]
+
+** Instrukcja instalacji postregsql
+Dystrybucje oparte na =Debianie=, czyli z manadzerem pakietów =apt=.
+: sudo apt install postgresql
+Po instalacji serwis/demon powinien rospocząć się automatycznie.
+
+Sprawdzanie wersji zainstalowanej wersji
+#+begin_src shell :results output
+  apt list postgresql
+#+end_src
+
+#+RESULTS:
+: Listing...
+: postgresql/stable,now 13+225 all [installed]
+
+** Tworzenie bazy danych
+1. Otwórz terminal i uruchom poniższe polecenie, aby zalogować się do serwera PostgreSQL:
+   : sudo su postgres
+2. Teraz użyj poniższego polecenia, aby wejść do powłoki PostgreSQL:
+   : psql
+3. Stworz bazę /users/ za pomocą:
+   - Wyświetl bazy danych
+     : \l
+     : SELECT current_database();
+     : CREATE DATABASE test;
+     : \connect test;
+     : SELECT current_database();
+   - Stwórz tabelę
+     : CREATE TABLE users(id SERIAL PRIMARY KEY,login VARCHAR(50), password VARCHAR(50));
+   - Wyświetl tabele
+     : \dt
+   - Wyświetl wszystkie rekordy z tabeli /users/
+     : SELECT * FROM users;
+   - Dodaj rekordy
+     : INSERT INTO users(login,password) VALUES('admin', 'admin');
+     : INSERT INTO users(login,password) VALUES('qwe', 'qwe');
+     : INSERT INTO users(login,password) VALUES('kaczka', 'eeee');
+   
+** Tworzenie backupu bazy danych
+Jest to bardzo prosta operacja, precyzujemy nazwę bazy do archiwizacji. W tym przypadku /test/.
+: pg_dump test > testdb.backup
+** Przywrócenie backupu w środowisku klienta
+Podobnie jak tworzenie, przywracanie działa analogicznie. Należy jednak wcześniej stworzyć bazę.
+: psql
+: CREATE DATABASE test;
+Importujemy za pomocą:
+: psql test < testdb.backup
+: psql
+: \connect test
+: SELECT * FROM users

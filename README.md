@@ -1,74 +1,80 @@
 
 # Table of Contents
 
-1.  [Ćwiczenia 1](#org264c561)
-    1.  [Dokumentacja projektu](#orgef35634)
-    2.  [Projekt tablicy kanban](#orge9d9894)
-    3.  [Cel](#org9d824a2)
-    4.  [Podział zespołów](#org2b2f9f6)
-    5.  [Analiza ryzyka](#org7e3a615)
-        1.  [Prawdopodobieństwo](#org6b8b05b)
-        2.  [Wpływ na projekt](#org487e38c)
-        3.  [Sposób ograniczenia ryzyka](#orgc2d876d)
-        4.  [Reakcja](#orge52b126)
-2.  [Ćwiczenia 2](#org9f91f91)
-    1.  [Epic](#orgb7db01b)
-    2.  [Feature](#org6de2cee)
-    3.  [User story/task](#orgdd922a9)
-3.  [Ćwiczenia 3](#org8b7ab8a)
-    1.  [Analiza SWOT (dla opisu przypadku)](#orgc05b7b1)
-        1.  [Strenghts](#orgf2564f6)
-        2.  [Weakness](#org20bbd11)
-        3.  [Occasions](#orgda08d63)
-        4.  [Threats](#orge9945e7)
-    2.  [Zadanie 2](#org5105638)
-4.  [Ćwiczenia 4](#org6e08514)
-    1.  [Schemat blokowy](#org043f75a)
-        1.  [Zmiana hasła](#orgeb94d77)
-        2.  [Logowanie](#orgc588c6c)
-        3.  [Rejestacja](#org9113184)
-    2.  [Konflikty](#orgcd5b4b3)
-        1.  [Przypadek 1](#orgceb8abf)
-        2.  [Przypadek 2](#orgda1e8c2)
-        3.  [Przypadek 3](#org91c6add)
-5.  [Ćwiczenia 5](#org3145e84)
-    1.  [Rejestr udziałowców](#org6cf5a5b)
-6.  [Ćwiczenia 6](#orgdd12cd2)
-    1.  [DoD (Definition of Done)](#orgc6a04a3)
-    2.  [Kryteria akceptacji](#orgb6e30da)
-7.  [Ćwiczenia 7](#org716fcfd)
-    1.  [Burn up](#org6784278)
-    2.  [Burn down](#org90bfa7d)
+1.  [Ćwiczenia 1](#org8ad88af)
+    1.  [Dokumentacja projektu](#orgd9c0a87)
+    2.  [Projekt tablicy kanban](#orgbcd1eec)
+    3.  [Cel](#org5e6e11f)
+    4.  [Podział zespołów](#orgd0e8775)
+    5.  [Analiza ryzyka](#orgb2ac1df)
+        1.  [Prawdopodobieństwo](#orgf844316)
+        2.  [Wpływ na projekt](#org7b24aff)
+        3.  [Sposób ograniczenia ryzyka](#org96ba6dc)
+        4.  [Reakcja](#org049a1b7)
+2.  [Ćwiczenia 2](#org539237e)
+    1.  [Epic](#orgda093e4)
+    2.  [Feature](#orgacd546c)
+    3.  [User story/task](#org5f3f04c)
+3.  [Ćwiczenia 3](#org216155f)
+    1.  [Analiza SWOT (dla opisu przypadku)](#org86ef08c)
+        1.  [Strenghts](#org1618cd8)
+        2.  [Weakness](#orgb623f69)
+        3.  [Occasions](#orgd6f8f45)
+        4.  [Threats](#org7cc99fa)
+    2.  [Zadanie 2](#org744d7e5)
+4.  [Ćwiczenia 4](#org6229a7f)
+    1.  [Schemat blokowy](#org4f335ee)
+        1.  [Zmiana hasła](#orge66f927)
+        2.  [Logowanie](#orgd1b6b5f)
+        3.  [Rejestacja](#org382e3db)
+    2.  [Konflikty](#orgfc017ea)
+        1.  [Przypadek 1](#orge444aca)
+        2.  [Przypadek 2](#org85a32f9)
+        3.  [Przypadek 3](#org5354652)
+5.  [Ćwiczenia 5](#orga9f229b)
+    1.  [Rejestr udziałowców](#org05876c0)
+6.  [Ćwiczenia 6](#orgd0c9c67)
+    1.  [DoD (Definition of Done)](#orgea0b762)
+    2.  [Kryteria akceptacji](#orge3f6755)
+7.  [Ćwiczenia 7](#org0156027)
+    1.  [Burn up](#org2c8f384)
+    2.  [Burn down](#org8394db4)
+8.  [Ćwiczenia 8](#orga96f482)
+    1.  [Wymagania sprzętowe](#orga4b4635)
+    2.  [Instrukcja instalacji postregsql](#org91ab22b)
+    3.  [Tworzenie bazy danych](#org3bc6a3f)
+    4.  [Tworzenie backupu bazy danych](#org4ca96eb)
+    5.  [Przywrócenie backupu w środowisku klienta](#orgd3e3609)
 
 
 
-<a id="org264c561"></a>
+<a id="org8ad88af"></a>
 
 # Ćwiczenia 1
 
 
-<a id="orgef35634"></a>
+<a id="orgd9c0a87"></a>
 
 ## Dokumentacja projektu
 
 Dokumentacja z zajęć z przedmiotu fakultatywnego, prowadzonego przez firmę Visimind.
 
 
-<a id="orge9d9894"></a>
+<a id="orgbcd1eec"></a>
 
 ## Projekt tablicy kanban
 
 Na tworzenie aplikacji codziennie każdy powinien przeznaczyć 1,5h, a w czwartek dodatkowe 2,25h, ponieważ mamy planowo w tym czasie zajęcia przeznaczone do tworzenia tego projektu. Projekt i działająca aplikacja powinny być ukończone 25.05.2022r, więc mamy jako zespół 12 tygodni (117 godzin) pracy nad projektem.
 
 
-<a id="org9d824a2"></a>
+<a id="org5e6e11f"></a>
 
 ## Cel
 
 Celem naszego projektu jest stworzenie działającej tablicy kanban, w której zadania będą przypisywane do osób, możliwe będą rejestracja i logowanie, ułożenie ich wg progresu danego zadania.
 
 
-<a id="org2b2f9f6"></a>
+<a id="orgd0e8775"></a>
 
 ## Podział zespołów
 
@@ -78,33 +84,33 @@ Kazdy swoje poszczególne zadania i terminy ma już przypisane na specjalnie za�
 Co tydzień w poniedziałek jest spotkanie, na którym kontrolujemy postęp i ustalamy czego jeszcze brakuje.
 
 
-<a id="org7e3a615"></a>
+<a id="orgb2ac1df"></a>
 
 ## Analiza ryzyka
 
 
-<a id="org6b8b05b"></a>
+<a id="orgf844316"></a>
 
 ### Prawdopodobieństwo
 
 -   będzie tak dużo pracy własnej związanej ze studiami, że nie będziemy mogli poświęcić tak dużo czasu na tworzenie projektu.
 
 
-<a id="org487e38c"></a>
+<a id="org7b24aff"></a>
 
 ### Wpływ na projekt
 
 -   Jest to najbardzej prawdopodobna możliwość, która opóźniłaby powstawanie aplikacji,
 
 
-<a id="orgc2d876d"></a>
+<a id="org96ba6dc"></a>
 
 ### Sposób ograniczenia ryzyka
 
 -   dlatego jest zaplanowane codzienna praca, żeby teraz, póki semestr dopiero się zaczyna, zrobić więcej, ewentualnie szybciej skończyć. Jeżeli mimo to będą opóźnienia, to poszukamy pomocy, a jeżeli jej nie znajdziemy, to będziemy też poświęcać na to czas w sobotę i niedzielę.
 
 
-<a id="orge52b126"></a>
+<a id="org049a1b7"></a>
 
 ### Reakcja
 
@@ -113,19 +119,19 @@ Co tydzień w poniedziałek jest spotkanie, na którym kontrolujemy postęp i us
 **\*zajęcia 04.03**
 
 
-<a id="org9f91f91"></a>
+<a id="org539237e"></a>
 
 # Ćwiczenia 2
 
 
-<a id="orgb7db01b"></a>
+<a id="orgda093e4"></a>
 
 ## Epic
 
 Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planować swoje projekty rozbijając je na zadania i przypisując konkretne osoby i daty.
 
 
-<a id="org6de2cee"></a>
+<a id="orgacd546c"></a>
 
 ## Feature
 
@@ -141,7 +147,7 @@ Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planowa
 10. Wysyłaj powiadomienia o zmianach wprowadzonych przez pozostałych użytkowników tablicy 40
 
 
-<a id="orgdd922a9"></a>
+<a id="org5f3f04c"></a>
 
 ## User story/task
 
@@ -160,17 +166,17 @@ Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planowa
 -   Połączyć front i back 40
 
 
-<a id="org8b7ab8a"></a>
+<a id="org216155f"></a>
 
 # Ćwiczenia 3
 
 
-<a id="orgc05b7b1"></a>
+<a id="org86ef08c"></a>
 
 ## Analiza SWOT (dla opisu przypadku)
 
 
-<a id="orgf2564f6"></a>
+<a id="org1618cd8"></a>
 
 ### Strenghts
 
@@ -183,7 +189,7 @@ Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planowa
 -   pozostałe osoby z firmy umożliwiające prawidłowe funkcjonowanie firmy
 
 
-<a id="org20bbd11"></a>
+<a id="orgb623f69"></a>
 
 ### Weakness
 
@@ -196,7 +202,7 @@ Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planowa
 -   możliwość odejścia seniora
 
 
-<a id="orgda08d63"></a>
+<a id="orgd6f8f45"></a>
 
 ### Occasions
 
@@ -204,7 +210,7 @@ Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planowa
 -   możliwość wyboru pracowników spośród potencjalnych kandydatów w mieście
 
 
-<a id="orge9945e7"></a>
+<a id="org7cc99fa"></a>
 
 ### Threats
 
@@ -213,7 +219,7 @@ Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planowa
 -   brak możliwości rozwinięcia się w pracy nad dużym projektem
 
 
-<a id="org5105638"></a>
+<a id="org744d7e5"></a>
 
 ## Zadanie 2
 
@@ -221,43 +227,43 @@ Harmonogram / Wykres Ganta
 ![img](./images/harmonogram.png)
 
 
-<a id="org6e08514"></a>
+<a id="org6229a7f"></a>
 
 # Ćwiczenia 4
 
 
-<a id="org043f75a"></a>
+<a id="org4f335ee"></a>
 
 ## Schemat blokowy
 
 
-<a id="orgeb94d77"></a>
+<a id="orge66f927"></a>
 
 ### Zmiana hasła
 
 ![img](./images/zmiana_hasla.drawio.svg)
 
 
-<a id="orgc588c6c"></a>
+<a id="orgd1b6b5f"></a>
 
 ### Logowanie
 
 ![img](./images/logowanie.drawio.svg)
 
 
-<a id="org9113184"></a>
+<a id="org382e3db"></a>
 
 ### Rejestacja
 
 ![img](./images/rejestracja.drawio.svg)
 
 
-<a id="orgcd5b4b3"></a>
+<a id="orgfc017ea"></a>
 
 ## Konflikty
 
 
-<a id="orgceb8abf"></a>
+<a id="orge444aca"></a>
 
 ### Przypadek 1
 
@@ -270,7 +276,7 @@ Harmonogram / Wykres Ganta
     -   zwolnić w razie konieczności
 
 
-<a id="orgda1e8c2"></a>
+<a id="org85a32f9"></a>
 
 ### Przypadek 2
 
@@ -284,7 +290,7 @@ Harmonogram / Wykres Ganta
     -   doprecyzowanie jakie efekty przyniesie realizacja dema, by zrozumiec jego potrzebę
 
 
-<a id="org91c6add"></a>
+<a id="org5354652"></a>
 
 ### Przypadek 3
 
@@ -298,12 +304,12 @@ Harmonogram / Wykres Ganta
     -   ustalenie czasu poświęconego przez Maćka na każdy projekt
 
 
-<a id="org3145e84"></a>
+<a id="orga9f229b"></a>
 
 # Ćwiczenia 5
 
 
-<a id="org6cf5a5b"></a>
+<a id="org05876c0"></a>
 
 ## Rejestr udziałowców
 
@@ -439,12 +445,12 @@ Harmonogram / Wykres Ganta
 </table>
 
 
-<a id="orgdd12cd2"></a>
+<a id="orgd0c9c67"></a>
 
 # Ćwiczenia 6
 
 
-<a id="orgc6a04a3"></a>
+<a id="orgea0b762"></a>
 
 ## DoD (Definition of Done)
 
@@ -464,7 +470,7 @@ Harmonogram / Wykres Ganta
 -   Sprint oznaczony jako gotowy do wdrożenia produkcyjnego przez Właściciela Produktu
 
 
-<a id="orgb6e30da"></a>
+<a id="orge3f6755"></a>
 
 ## Kryteria akceptacji
 
@@ -480,21 +486,109 @@ Harmonogram / Wykres Ganta
 -   ustanowienie limitu wielkości pliku do xMB
 
 
-<a id="org716fcfd"></a>
+<a id="org0156027"></a>
 
 # Ćwiczenia 7
 
 
-<a id="org6784278"></a>
+<a id="org2c8f384"></a>
 
 ## Burn up
 
 ![img](./images/burn_up.png "Diagram Burn Up (chyba)")
 
 
-<a id="org90bfa7d"></a>
+<a id="org8394db4"></a>
 
 ## Burn down
 
 ![img](./images/burn_down.png "Diagram Burn Down (chyba)")
+
+
+<a id="orga96f482"></a>
+
+# Ćwiczenia 8
+
+
+<a id="orga4b4635"></a>
+
+## Wymagania sprzętowe
+
+<https://www.postgresql.org/docs/current/install-requirements.html>
+<https://www.postgresql.org/message-id/m3k75ewlwa.fsf@wolfe.cbbrowne.com>
+
+
+<a id="org91ab22b"></a>
+
+## Instrukcja instalacji postregsql
+
+Dystrybucje oparte na `Debianie`, czyli z manadzerem pakietów `apt`.
+
+    sudo apt install postgresql
+
+Po instalacji serwis/demon powinien rospocząć się automatycznie.
+
+Sprawdzanie wersji zainstalowanej wersji
+
+    apt list postgresql
+
+
+<a id="org3bc6a3f"></a>
+
+## Tworzenie bazy danych
+
+1.  Otwórz terminal i uruchom poniższe polecenie, aby zalogować się do serwera PostgreSQL:
+    
+        sudo su postgres
+2.  Teraz użyj poniższego polecenia, aby wejść do powłoki PostgreSQL:
+    
+        psql
+3.  Stworz bazę *users* za pomocą:
+    -   Wyświetl bazy danych
+        
+            \l
+            SELECT current_database();
+            CREATE DATABASE test;
+            \connect test;
+            SELECT current_database();
+    -   Stwórz tabelę
+        
+            CREATE TABLE users(id SERIAL PRIMARY KEY,login VARCHAR(50), password VARCHAR(50));
+    -   Wyświetl tabele
+        
+            \dt
+    -   Wyświetl wszystkie rekordy z tabeli *users*
+        
+            SELECT * FROM users;
+    -   Dodaj rekordy
+        
+            INSERT INTO users(login,password) VALUES('admin', 'admin');
+            INSERT INTO users(login,password) VALUES('qwe', 'qwe');
+            INSERT INTO users(login,password) VALUES('kaczka', 'eeee');
+
+
+<a id="org4ca96eb"></a>
+
+## Tworzenie backupu bazy danych
+
+Jest to bardzo prosta operacja, precyzujemy nazwę bazy do archiwizacji. W tym przypadku *test*.
+
+    pg_dump test > testdb.backup
+
+
+<a id="orgd3e3609"></a>
+
+## Przywrócenie backupu w środowisku klienta
+
+Podobnie jak tworzenie, przywracanie działa analogicznie. Należy jednak wcześniej stworzyć bazę.
+
+    psql
+    CREATE DATABASE test;
+
+Importujemy za pomocą:
+
+    psql test < testdb.backup
+    psql
+    \connect test
+    SELECT * FROM users
 
