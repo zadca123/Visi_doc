@@ -31,6 +31,9 @@
   - [[#instrukcja-instalacji-postregsql][Instrukcja instalacji postregsql]]
   - [[#tworzenie-bazy-danych][Tworzenie bazy danych]]
   - [[#backup-bazy-danych][Backup bazy danych]]
+- [[#ćwiczenia-9][Ćwiczenia 9]]
+  - [[#zadanie-1][Zadanie 1]]
+  - [[#zadanie-2-1][Zadanie 2]]
 
 * Ćwiczenia 1
 ** Dokumentacja projektu
@@ -281,3 +284,24 @@ Sprawdzanie wersji zainstalowanej wersji
   : psql
   : \connect test
   : SELECT * FROM users;
+* Ćwiczenia 9
+** Zadanie 1
+odpowiedzialność prawna, zarządcza, za organizowanie funkcji, ogarnięcie celów, regulaminu, kontrolowanie regulaminów
+sr - 
+planowanie operacyjne, nieobecności, org zastępstw, 
+*** Wyższy
+- rada nadzorcza, prezes zarzadu :: reguluje funkcjonowanie osoby prawnej oraz jej statut w oprarciu o właściwe przepisy prawne, przyznawanie określonych uprawnień w zakresie kierowania pracami zarządu
+*** Średni
+- dyrektorzy, kierownicy :: koordynacja menedżerów niższego szczebla, pełnienie funkcji zgodnie z postanowieniami umowy spółki, statutu lub innymi obowiązującymi jednostkę przepisami prawa
+*** Operacyjny
+- brygadziści, team leaderzy :: przydzielanie zadań, planowanie zastępst, planowanie operacyjne, organizacja zastępstw, wykonywanie zleceń dyrekcji niższego szczebla
+** Zadanie 2
+- Spotkanie z zespołem
+  + Ustalenie na czym skupi się spotkanie.
+  + Ustalić, co chce się osiągnąć, zakładając spotkanie.
+  + Ustalić, co chce się, aby ludzie wynieśli ze spotkania.
+  + Poinformować uczestników o miejscu i czasie spotkania.
+  + Ustalić czy czas i miejsce pasują uczestnikom spotkania.
+  + Stworzyć harmonogram spotania.
+  + Przygotować materiały niezbędne do spotkania.
+  + Opisać cele spotkania według sporządzonego wcześniej harmonogramu.

@@ -1,79 +1,85 @@
 
 # Table of Contents
 
-1.  [Ćwiczenia 1](#orgca6c5e1)
-    1.  [Dokumentacja projektu](#orgd38a628)
-    2.  [Projekt tablicy kanban](#org3d3bb18)
-    3.  [Cel](#orge2c301d)
-    4.  [Podział zespołów](#org65c46dd)
-    5.  [Analiza ryzyka](#orgdb719c2)
-        1.  [Prawdopodobieństwo](#orgd525834)
-        2.  [Wpływ na projekt](#org6315286)
-        3.  [Sposób ograniczenia ryzyka](#orgbbdee77)
-        4.  [Reakcja](#orgbc9d735)
-2.  [Ćwiczenia 2](#org223ae1c)
-    1.  [Epic](#org7ff80d0)
-    2.  [Feature](#org3af78f3)
-    3.  [User story/task](#org5cb2dc8)
-3.  [Ćwiczenia 3](#orgb235097)
-    1.  [Analiza SWOT (dla opisu przypadku)](#org3d0daf5)
-        1.  [Strenghts](#org235f138)
-        2.  [Weakness](#org8009546)
-        3.  [Occasions](#org83b52f0)
-        4.  [Threats](#org1225104)
-    2.  [Zadanie 2](#org5b868fc)
-4.  [Ćwiczenia 4](#orgc12c00d)
-    1.  [Schemat blokowy](#orgb4840d9)
-        1.  [Zmiana hasła](#org5675dfb)
-        2.  [Logowanie](#orgcd35387)
-        3.  [Rejestacja](#org5be236f)
-    2.  [Konflikty](#org8035f33)
-        1.  [Przypadek 1](#orgf47705b)
-        2.  [Przypadek 2](#org7c4db97)
-        3.  [Przypadek 3](#orgfb3a005)
-5.  [Ćwiczenia 5](#org3d5336b)
-    1.  [Rejestr udziałowców](#org9d2e525)
-6.  [Ćwiczenia 6](#orgb5d77fa)
-    1.  [DoD (Definition of Done)](#orgd47d199)
-    2.  [Kryteria akceptacji](#org5100e35)
-7.  [Ćwiczenia 7](#org98adf0d)
-    1.  [Burn up](#org8fb3eef)
-    2.  [Burn down](#orgdd38e47)
-8.  [Ćwiczenia 8](#org36c9988)
-    1.  [Wymagania sprzętowe](#orgbdd032d)
-    2.  [Instrukcja instalacji postregsql](#org1c8308b)
-    3.  [Tworzenie bazy danych](#orge4968ef)
-    4.  [Backup bazy danych](#org0cd00db)
+1.  [Ćwiczenia 1](#org77be820)
+    1.  [Dokumentacja projektu](#org5ae0c47)
+    2.  [Projekt tablicy kanban](#orgba5d442)
+    3.  [Cel](#org7ecf698)
+    4.  [Podział zespołów](#org662483f)
+    5.  [Analiza ryzyka](#orgccc994e)
+        1.  [Prawdopodobieństwo](#orgf021907)
+        2.  [Wpływ na projekt](#orgb28d91f)
+        3.  [Sposób ograniczenia ryzyka](#org537ac5d)
+        4.  [Reakcja](#org2689b0c)
+2.  [Ćwiczenia 2](#org3fe3862)
+    1.  [Epic](#orgad50ea8)
+    2.  [Feature](#orgaf366e8)
+    3.  [User story/task](#org46857bb)
+3.  [Ćwiczenia 3](#orgd911e60)
+    1.  [Analiza SWOT (dla opisu przypadku)](#org40e5e1b)
+        1.  [Strenghts](#org6fd2dd3)
+        2.  [Weakness](#orgd45ec3b)
+        3.  [Occasions](#org3575829)
+        4.  [Threats](#org650b2ea)
+    2.  [Zadanie 2](#org6e8cc97)
+4.  [Ćwiczenia 4](#orgac723d6)
+    1.  [Schemat blokowy](#orgc53d07f)
+        1.  [Zmiana hasła](#orgb8bfb97)
+        2.  [Logowanie](#orgd8f4218)
+        3.  [Rejestacja](#org4161550)
+    2.  [Konflikty](#orgcd23a63)
+        1.  [Przypadek 1](#org970b092)
+        2.  [Przypadek 2](#org4985f5b)
+        3.  [Przypadek 3](#org94af3e3)
+5.  [Ćwiczenia 5](#org4d62983)
+    1.  [Rejestr udziałowców](#org5d777a6)
+6.  [Ćwiczenia 6](#orge4f071a)
+    1.  [DoD (Definition of Done)](#org8f06e08)
+    2.  [Kryteria akceptacji](#org6141ed7)
+7.  [Ćwiczenia 7](#orgeaa950c)
+    1.  [Burn up](#org5666f4c)
+    2.  [Burn down](#org15d5eb4)
+8.  [Ćwiczenia 8](#org1ea6a36)
+    1.  [Wymagania sprzętowe](#orgab40d29)
+    2.  [Instrukcja instalacji postregsql](#orgc0c6eaa)
+    3.  [Tworzenie bazy danych](#org5e4d78f)
+    4.  [Backup bazy danych](#orgba6622a)
+9.  [Ćwiczenia 9](#org00ab91f)
+    1.  [Zadanie 1](#org9e21750)
+        1.  [Wyższy](#org0b789a2)
+        2.  [Średni](#org2940c00)
+        3.  [Operacyjny](#orge9b26c3)
+    2.  [Zadanie 2](#org3754b65)
 
 
 
-<a id="orgca6c5e1"></a>
+<a id="org77be820"></a>
 
 # Ćwiczenia 1
 
 
-<a id="orgd38a628"></a>
+<a id="org5ae0c47"></a>
 
 ## Dokumentacja projektu
 
 Dokumentacja z zajęć z przedmiotu fakultatywnego, prowadzonego przez firmę Visimind.
 
 
-<a id="org3d3bb18"></a>
+<a id="orgba5d442"></a>
 
 ## Projekt tablicy kanban
 
 Na tworzenie aplikacji codziennie każdy powinien przeznaczyć 1,5h, a w czwartek dodatkowe 2,25h, ponieważ mamy planowo w tym czasie zajęcia przeznaczone do tworzenia tego projektu. Projekt i działająca aplikacja powinny być ukończone 25.05.2022r, więc mamy jako zespół 12 tygodni (117 godzin) pracy nad projektem.
 
 
-<a id="orge2c301d"></a>
+<a id="org7ecf698"></a>
 
 ## Cel
 
 Celem naszego projektu jest stworzenie działającej tablicy kanban, w której zadania będą przypisywane do osób, możliwe będą rejestracja i logowanie, ułożenie ich wg progresu danego zadania.
 
 
-<a id="org65c46dd"></a>
+<a id="org662483f"></a>
 
 ## Podział zespołów
 
@@ -83,33 +89,33 @@ Kazdy swoje poszczególne zadania i terminy ma już przypisane na specjalnie za�
 Co tydzień w poniedziałek jest spotkanie, na którym kontrolujemy postęp i ustalamy czego jeszcze brakuje.
 
 
-<a id="orgdb719c2"></a>
+<a id="orgccc994e"></a>
 
 ## Analiza ryzyka
 
 
-<a id="orgd525834"></a>
+<a id="orgf021907"></a>
 
 ### Prawdopodobieństwo
 
 -   będzie tak dużo pracy własnej związanej ze studiami, że nie będziemy mogli poświęcić tak dużo czasu na tworzenie projektu.
 
 
-<a id="org6315286"></a>
+<a id="orgb28d91f"></a>
 
 ### Wpływ na projekt
 
 -   Jest to najbardzej prawdopodobna możliwość, która opóźniłaby powstawanie aplikacji,
 
 
-<a id="orgbbdee77"></a>
+<a id="org537ac5d"></a>
 
 ### Sposób ograniczenia ryzyka
 
 -   dlatego jest zaplanowane codzienna praca, żeby teraz, póki semestr dopiero się zaczyna, zrobić więcej, ewentualnie szybciej skończyć. Jeżeli mimo to będą opóźnienia, to poszukamy pomocy, a jeżeli jej nie znajdziemy, to będziemy też poświęcać na to czas w sobotę i niedzielę.
 
 
-<a id="orgbc9d735"></a>
+<a id="org2689b0c"></a>
 
 ### Reakcja
 
@@ -118,19 +124,19 @@ Co tydzień w poniedziałek jest spotkanie, na którym kontrolujemy postęp i us
 **\*zajęcia 04.03**
 
 
-<a id="org223ae1c"></a>
+<a id="org3fe3862"></a>
 
 # Ćwiczenia 2
 
 
-<a id="org7ff80d0"></a>
+<a id="orgad50ea8"></a>
 
 ## Epic
 
 Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planować swoje projekty rozbijając je na zadania i przypisując konkretne osoby i daty.
 
 
-<a id="org3af78f3"></a>
+<a id="orgaf366e8"></a>
 
 ## Feature
 
@@ -146,7 +152,7 @@ Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planowa
 10. Wysyłaj powiadomienia o zmianach wprowadzonych przez pozostałych użytkowników tablicy 40
 
 
-<a id="org5cb2dc8"></a>
+<a id="org46857bb"></a>
 
 ## User story/task
 
@@ -165,17 +171,17 @@ Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planowa
 -   Połączyć front i back 40
 
 
-<a id="orgb235097"></a>
+<a id="orgd911e60"></a>
 
 # Ćwiczenia 3
 
 
-<a id="org3d0daf5"></a>
+<a id="org40e5e1b"></a>
 
 ## Analiza SWOT (dla opisu przypadku)
 
 
-<a id="org235f138"></a>
+<a id="org6fd2dd3"></a>
 
 ### Strenghts
 
@@ -188,7 +194,7 @@ Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planowa
 -   pozostałe osoby z firmy umożliwiające prawidłowe funkcjonowanie firmy
 
 
-<a id="org8009546"></a>
+<a id="orgd45ec3b"></a>
 
 ### Weakness
 
@@ -201,7 +207,7 @@ Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planowa
 -   możliwość odejścia seniora
 
 
-<a id="org83b52f0"></a>
+<a id="org3575829"></a>
 
 ### Occasions
 
@@ -209,7 +215,7 @@ Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planowa
 -   możliwość wyboru pracowników spośród potencjalnych kandydatów w mieście
 
 
-<a id="org1225104"></a>
+<a id="org650b2ea"></a>
 
 ### Threats
 
@@ -218,7 +224,7 @@ Aplikacja webowa tablicy kanban, w której zalogowani użytkownicy mogą planowa
 -   brak możliwości rozwinięcia się w pracy nad dużym projektem
 
 
-<a id="org5b868fc"></a>
+<a id="org6e8cc97"></a>
 
 ## Zadanie 2
 
@@ -226,43 +232,43 @@ Harmonogram / Wykres Ganta
 ![img](./images/harmonogram.png)
 
 
-<a id="orgc12c00d"></a>
+<a id="orgac723d6"></a>
 
 # Ćwiczenia 4
 
 
-<a id="orgb4840d9"></a>
+<a id="orgc53d07f"></a>
 
 ## Schemat blokowy
 
 
-<a id="org5675dfb"></a>
+<a id="orgb8bfb97"></a>
 
 ### Zmiana hasła
 
 ![img](./images/zmiana_hasla.drawio.svg)
 
 
-<a id="orgcd35387"></a>
+<a id="orgd8f4218"></a>
 
 ### Logowanie
 
 ![img](./images/logowanie.drawio.svg)
 
 
-<a id="org5be236f"></a>
+<a id="org4161550"></a>
 
 ### Rejestacja
 
 ![img](./images/rejestracja.drawio.svg)
 
 
-<a id="org8035f33"></a>
+<a id="orgcd23a63"></a>
 
 ## Konflikty
 
 
-<a id="orgf47705b"></a>
+<a id="org970b092"></a>
 
 ### Przypadek 1
 
@@ -275,7 +281,7 @@ Harmonogram / Wykres Ganta
     -   zwolnić w razie konieczności
 
 
-<a id="org7c4db97"></a>
+<a id="org4985f5b"></a>
 
 ### Przypadek 2
 
@@ -289,7 +295,7 @@ Harmonogram / Wykres Ganta
     -   doprecyzowanie jakie efekty przyniesie realizacja dema, by zrozumiec jego potrzebę
 
 
-<a id="orgfb3a005"></a>
+<a id="org94af3e3"></a>
 
 ### Przypadek 3
 
@@ -303,12 +309,12 @@ Harmonogram / Wykres Ganta
     -   ustalenie czasu poświęconego przez Maćka na każdy projekt
 
 
-<a id="org3d5336b"></a>
+<a id="org4d62983"></a>
 
 # Ćwiczenia 5
 
 
-<a id="org9d2e525"></a>
+<a id="org5d777a6"></a>
 
 ## Rejestr udziałowców
 
@@ -444,12 +450,12 @@ Harmonogram / Wykres Ganta
 </table>
 
 
-<a id="orgb5d77fa"></a>
+<a id="orge4f071a"></a>
 
 # Ćwiczenia 6
 
 
-<a id="orgd47d199"></a>
+<a id="org8f06e08"></a>
 
 ## DoD (Definition of Done)
 
@@ -469,7 +475,7 @@ Harmonogram / Wykres Ganta
 -   Sprint oznaczony jako gotowy do wdrożenia produkcyjnego przez Właściciela Produktu
 
 
-<a id="org5100e35"></a>
+<a id="org6141ed7"></a>
 
 ## Kryteria akceptacji
 
@@ -485,31 +491,31 @@ Harmonogram / Wykres Ganta
 -   ustanowienie limitu wielkości pliku do xMB
 
 
-<a id="org98adf0d"></a>
+<a id="orgeaa950c"></a>
 
 # Ćwiczenia 7
 
 
-<a id="org8fb3eef"></a>
+<a id="org5666f4c"></a>
 
 ## Burn up
 
 ![img](./images/burn_up.png "Diagram Burn Up (chyba)")
 
 
-<a id="orgdd38e47"></a>
+<a id="org15d5eb4"></a>
 
 ## Burn down
 
 ![img](./images/burn_down.png "Diagram Burn Down (chyba)")
 
 
-<a id="org36c9988"></a>
+<a id="org1ea6a36"></a>
 
 # Ćwiczenia 8
 
 
-<a id="orgbdd032d"></a>
+<a id="orgab40d29"></a>
 
 ## Wymagania sprzętowe
 
@@ -517,7 +523,7 @@ Harmonogram / Wykres Ganta
 <https://www.postgresql.org/message-id/m3k75ewlwa.fsf@wolfe.cbbrowne.com>
 
 
-<a id="org1c8308b"></a>
+<a id="orgc0c6eaa"></a>
 
 ## Instrukcja instalacji postregsql
 
@@ -532,7 +538,7 @@ Sprawdzanie wersji zainstalowanej wersji
     apt list postgresql
 
 
-<a id="orge4968ef"></a>
+<a id="org5e4d78f"></a>
 
 ## Tworzenie bazy danych
 
@@ -566,7 +572,7 @@ Sprawdzanie wersji zainstalowanej wersji
             INSERT INTO users(login,password) VALUES('kaczka', 'eeee');
 
 
-<a id="org0cd00db"></a>
+<a id="orgba6622a"></a>
 
 ## Backup bazy danych
 
@@ -586,4 +592,54 @@ Sprawdzanie wersji zainstalowanej wersji
         psql
         \connect test
         SELECT * FROM users;
+
+
+<a id="org00ab91f"></a>
+
+# Ćwiczenia 9
+
+
+<a id="org9e21750"></a>
+
+## Zadanie 1
+
+odpowiedzialność prawna, zarządcza, za organizowanie funkcji, ogarnięcie celów, regulaminu, kontrolowanie regulaminów
+sr - 
+planowanie operacyjne, nieobecności, org zastępstw, 
+
+
+<a id="org0b789a2"></a>
+
+### Wyższy
+
+-   **rada nadzorcza, prezes zarzadu:** reguluje funkcjonowanie osoby prawnej oraz jej statut w oprarciu o właściwe przepisy prawne, przyznawanie określonych uprawnień w zakresie kierowania pracami zarządu
+
+
+<a id="org2940c00"></a>
+
+### Średni
+
+-   **dyrektorzy, kierownicy:** koordynacja menedżerów niższego szczebla, pełnienie funkcji zgodnie z postanowieniami umowy spółki, statutu lub innymi obowiązującymi jednostkę przepisami prawa
+
+
+<a id="orge9b26c3"></a>
+
+### Operacyjny
+
+-   **brygadziści, team leaderzy:** przydzielanie zadań, planowanie zastępst, planowanie operacyjne, organizacja zastępstw, wykonywanie zleceń dyrekcji niższego szczebla
+
+
+<a id="org3754b65"></a>
+
+## Zadanie 2
+
+-   Spotkanie z zespołem
+    -   Ustalenie na czym skupi się spotkanie.
+    -   Ustalić, co chce się osiągnąć, zakładając spotkanie.
+    -   Ustalić, co chce się, aby ludzie wynieśli ze spotkania.
+    -   Poinformować uczestników o miejscu i czasie spotkania.
+    -   Ustalić czy czas i miejsce pasują uczestnikom spotkania.
+    -   Stworzyć harmonogram spotania.
+    -   Przygotować materiały niezbędne do spotkania.
+    -   Opisać cele spotkania według sporządzonego wcześniej harmonogramu.
 
