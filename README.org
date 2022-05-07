@@ -34,6 +34,8 @@
 - [[#ćwiczenia-9][Ćwiczenia 9]]
   - [[#zadanie-1][Zadanie 1]]
   - [[#zadanie-2-1][Zadanie 2]]
+- [[#ćwiczenie-10][Ćwiczenie 10]]
+  - [[#plan-komunikacji][Plan komunikacji]]
 
 * Ćwiczenia 1
 ** Dokumentacja projektu
@@ -305,3 +307,15 @@ planowanie operacyjne, nieobecności, org zastępstw,
   + Stworzyć harmonogram spotania.
   + Przygotować materiały niezbędne do spotkania.
   + Opisać cele spotkania według sporządzonego wcześniej harmonogramu.
+* Ćwiczenie 10
+** Plan komunikacji
+| Uczestnik          | Sposób komunikacji              | Częstotliwość                           | Notatki                                                  |
+|--------------------+---------------------------------+-----------------------------------------+----------------------------------------------------------|
+| technik IT         | tickety                         | przy interwencji działu IT              | każdy ticket otrzymuje odpowiedź                         |
+| użytkownik         | formularz                       | przy wykonaniu zleceń                   | formularz w formie elektronicznej
+| UODO               | formularz, pismo                | przy incydentach ochrony praw osobowych | pisma w formie elektronicznej                            |
+| grafik             | raport                          | przy wykonaniu zleceń                   | spotkania osobiste lub online na platformie google meets |
+| kierownik projektu | spotkanie osobiste              | codzienne spotkania                     | daily scrum                                              |
+| programista        | spotkania zdalne                | codzienne spotkania                     | daily scrum                                              |
+| tester             | raport                          | przy testowaniu funkcjonalności         | złożenie raportu podczas wykrycia błędów                 |
+| właściciel sklepu  | prezentacje, raporty, spotkania | przy realizacji etapów                  | spotkania online                                         |
