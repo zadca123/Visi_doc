@@ -36,6 +36,8 @@
   - [[#zadanie-2-1][Zadanie 2]]
 - [[#ćwiczenie-10][Ćwiczenie 10]]
   - [[#plan-komunikacji][Plan komunikacji]]
+- [[#ćwiczenie-11][Ćwiczenie 11]]
+  - [[#hashe][Hashe]]
 
 * Ćwiczenia 1
 ** Dokumentacja projektu
@@ -319,3 +321,12 @@ planowanie operacyjne, nieobecności, org zastępstw,
 | programista        | spotkania zdalne                | codzienne spotkania                     | daily scrum                                              |
 | tester             | raport                          | przy testowaniu funkcjonalności         | złożenie raportu podczas wykrycia błędów                 |
 | właściciel sklepu  | prezentacje, raporty, spotkania | przy realizacji etapów                  | spotkania online                                         |
+* Ćwiczenie 11
+** Hashe
+#+CAPTION: Obrazek początkowy
+[[./images/kot_postrach_wszystkich_dzieci.bmp]]
+- hash256 :: 9489ECCC9541BA0BDA7792D3535EEC979B778185D5C66277D9BDA3BEDDB2AFAF
+
+#+CAPTION: Obrazek ze zmienionym bitem
+[[./images/zmieniony_kot.bmp]]
+- hash256 :: 57FF0DD1793A89F7400C5642F222FE1F30EDEB6DCF27E2A0647CFED303D2A0B6
