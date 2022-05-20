@@ -324,9 +324,9 @@ planowanie operacyjne, nieobecności, org zastępstw,
 * Ćwiczenie 11
 ** Hashe
 #+CAPTION: Obrazek początkowy
-[[./images/kot_postrach_wszystkich_dzieci.bmp]]
+[[file:./images/kot_postrach_wszystkich_dzieci.bmp]]
 - hash256 :: 9489ECCC9541BA0BDA7792D3535EEC979B778185D5C66277D9BDA3BEDDB2AFAF
 
 #+CAPTION: Obrazek ze zmienionym bitem
-[[./images/zmieniony_kot.bmp]]
+[[file:./images/zmieniony_kot.bmp]]
 - hash256 :: 57FF0DD1793A89F7400C5642F222FE1F30EDEB6DCF27E2A0647CFED303D2A0B6
